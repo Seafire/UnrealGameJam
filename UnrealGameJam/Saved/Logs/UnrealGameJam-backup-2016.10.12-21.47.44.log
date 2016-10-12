@@ -1,0 +1,721 @@
+﻿Log file open, 10/12/16 19:12:40
+LogInit:Display: Running engine for game: UnrealGameJam
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-988381518) SRandInit(-988381516).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.073601
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.12-18.12.40:108][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.12-18.12.40:108][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.12-18.12.40:118][  0]LogInit: Computer: DESKTOP-N6TRJQS
+[2016.10.12-18.12.40:118][  0]LogInit: User: Conor
+[2016.10.12-18.12.40:118][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.12-18.12.40:118][  0]LogInit: High frequency timer resolution =3.312784 MHz
+[2016.10.12-18.12.40:118][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.10.12-18.12.40:118][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.12-18.12.40:118][  0]LogMemory: Process Physical Memory: 190.68 MB used, 190.68 MB peak
+[2016.10.12-18.12.40:118][  0]LogMemory: Process Virtual Memory: 195.07 MB used, 195.07 MB peak
+[2016.10.12-18.12.40:118][  0]LogMemory: Physical Memory: 5910.13 MB used, 8145.47 MB total
+[2016.10.12-18.12.40:118][  0]LogMemory: Virtual Memory: 553.29 MB used, 134217728.00 MB total
+[2016.10.12-18.12.40:143][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.10.12-18.12.40:476][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.12-18.12.40:507][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
+[2016.10.12-18.12.40:507][  0]LogD3D11RHI:       1505/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.12-18.12.40:508][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.12-18.12.40:508][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.12-18.12.40:508][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.12-18.12.40:512][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.12-18.12.40:512][  0]LogD3D11RHI:     GPU DeviceId: 0x1185 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.12-18.12.40:512][  0]LogWindows: EnumDisplayDevices:
+[2016.10.12-18.12.40:512][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:1 D:1)
+[2016.10.12-18.12.40:513][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2016.10.12-18.12.40:513][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2016.10.12-18.12.40:513][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2016.10.12-18.12.40:513][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
+[2016.10.12-18.12.40:513][  0]LogD3D11RHI:   Driver Version: 372.90 (internal:21.21.13.7290, unified:372.90)
+[2016.10.12-18.12.40:513][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2016.10.12-18.12.40:513][  0]LogRHI: Texture pool is 1053 MB (70% of 1505 MB)
+[2016.10.12-18.12.40:525][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.12-18.12.40:540][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.12-18.12.40:540][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Intermediate/Shaders/WorkingDirectory/14020/).
+[2016.10.12-18.12.40:541][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Conor/AppData/Local/Temp/UnrealShaderWorkingDir/995C4B0F4FBC6C0752E579BE9D882276/'.
+[2016.10.12-18.12.40:541][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.12-18.12.41:424][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.12-18.12.41:442][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.12-18.12.41:451][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.12-18.12.41:460][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.12-18.12.41:469][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.12-18.12.41:476][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.12-18.12.41:483][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.12-18.12.41:491][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.12-18.12.41:499][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.12-18.12.41:506][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.12-18.12.41:513][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.12-18.12.41:528][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.12-18.12.41:528][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.12-18.12.41:529][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.12-18.12.41:551][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.12-18.12.41:558][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.12-18.12.41:565][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.12-18.12.41:572][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.12-18.12.41:579][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.12-18.12.41:579][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.12-18.12.41:657][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.12-18.12.41:715][  0]LogDerivedDataCache: Loaded boot cache 0.06s 48MB C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.12-18.12.41:715][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.10.12-18.12.41:715][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Repositories/UnrealGameJam-Last/UnrealGameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.12-18.12.41:715][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.12-18.12.41:715][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Repositories/UnrealGameJam-Last/UnrealGameJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.12-18.12.41:715][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.12-18.12.41:742][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.12-18.12.41:754][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Conor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.12-18.12.42:021][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.12-18.12.42:022][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.12-18.12.42:220][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.12-18.12.42:220][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.12-18.12.42:221][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.12-18.12.42:443][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2016.10.12-18.12.42:465][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.019337 seconds
+[2016.10.12-18.12.42:469][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.10.12-18.12.42:469][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.10.12-18.12.42:469][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.12-18.12.42:481][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.12-18.12.42:644][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.12-18.12.42:645][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.12-18.12.43:228][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.12-18.12.43:437][  0]SourceControl: Info Source control is disabled
+[2016.10.12-18.12.43:476][  0]SourceControl: Info Source control is disabled
+[2016.10.12-18.12.43:485][  0]SourceControl: Info Source control is disabled
+[2016.10.12-18.12.43:494][  0]SourceControl: Info Source control is disabled
+[2016.10.12-18.12.43:723][  0]LogEngine: Initializing Engine...
+[2016.10.12-18.12.43:724][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.12-18.12.43:724][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.12-18.12.43:850][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.12-18.12.43:863][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.12-18.12.43:874][  0]LogInit: FAudioDevice initialized.
+[2016.10.12-18.12.43:900][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.12-18.12.43:909][  0]LogInit: Texture streaming: Enabled
+[2016.10.12-18.12.43:933][  0]LogInit: Transaction tracking system initialized
+[2016.10.12-18.12.43:958][  0]BlueprintLog: New page: Editor Load
+[2016.10.12-18.12.44:033][  0]LocalizationService: Info Localization service is disabled
+[2016.10.12-18.12.44:095][  0]LogConsoleResponse:Display: 
+[2016.10.12-18.12.44:188][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.12-18.12.44:188][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.12-18.12.44:286][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/' took 0.01s
+[2016.10.12-18.12.44:286][  0]SourceControl: Info Source control is disabled
+[2016.10.12-18.12.44:286][  0]Cmd: MAP LOAD FILE="D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/ArenaMap/ArenaMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.12-18.12.44:287][  0]LightingResults: New page: Lighting Build
+[2016.10.12-18.12.44:290][  0]MapCheck: New page: Map Check
+[2016.10.12-18.12.44:290][  0]LightingResults: New page: Lighting Build
+[2016.10.12-18.12.45:560][  0]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.12-18.12.45:618][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.12-18.12.45:620][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.12-18.12.45:677][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.462ms to complete.
+[2016.10.12-18.12.45:677][  0]LogFileHelpers: Loading map 'ArenaMap' took 1.390
+[2016.10.12-18.12.46:053][  0]LogCollectionManager: Loaded 1 collections in 0.004429 seconds
+[2016.10.12-18.12.46:097][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/Collections/' took 0.01s
+[2016.10.12-18.12.46:097][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/Developers/Conor/Collections/' took 0.01s
+[2016.10.12-18.12.46:098][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/Collections/' took 0.01s
+[2016.10.12-18.12.46:098][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000008 seconds
+[2016.10.12-18.12.46:098][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
+[2016.10.12-18.12.46:112][  0]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 2047 classes and 369 folders.
+[2016.10.12-18.12.46:118][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.12-18.12.46:118][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.12-18.12.46:119][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2016.10.12-18.12.46:127][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.10.12-18.12.46:178][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.10.12-18.12.46:184][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.10.12-18.12.46:274][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.12-18.12.46:278][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.12-18.12.46:286][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.12-18.12.46:314][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.10.12-18.12.46:315][  0]LogLoad: Full Startup: 6.90 seconds (BP compile: 0.31 seconds)
+[2016.10.12-18.12.46:315][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.10.12-18.12.46:324][  0]LogOcInput: OculusInput pre-init called
+[2016.10.12-18.12.46:342][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.10.12-18.12.46:513][  0]LogRenderer: Reallocating scene render targets to support 1164x624 (Frame:2).
+[2016.10.12-18.12.46:718][  2]LogAssetRegistry: Asset discovery search completed in 4.2967 seconds
+[2016.10.12-18.12.46:718][  2]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000007 seconds (found 0 objects)
+[2016.10.12-18.12.46:718][  2]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000024 seconds (updated 0 objects)
+[2016.10.12-18.13.05:326][ 49]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2016.10.12-18.14.22:139][484]BlueprintLog: New page: Compile AICharacter
+[2016.10.12-18.14.22:374][484]BlueprintEditorCompileResults: Info [0102.96] Compile of AICharacter successful! [in 235 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.12-18.14.25:577][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.14.25:577][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.12-18.14.25:579][762]PIE: New page: PIE session: ArenaMap (12 Oct 2016 19:14:25)
+[2016.10.12-18.14.25:579][762]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_ArenaMap
+[2016.10.12-18.14.25:669][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.089658s)
+[2016.10.12-18.14.25:669][762]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.12-18.14.25:670][762]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2016.10.12-18.14.25:670][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/ArenaMap.ArenaMap to /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap (0.091133s)
+[2016.10.12-18.14.25:710][762]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.12-18.14.25:720][762]LogInit: FAudioDevice initialized.
+[2016.10.12-18.14.25:795][762]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.12-18.14.25:847][762]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.12-19.14.25
+[2016.10.12-18.14.25:849][762]LogWorld: Bringing up level for play took: 0.052744
+[2016.10.12-18.14.25:855][762]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2016.10.12-18.14.25:858][762]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_ArenaMap -0.629
+[2016.10.12-18.14.25:858][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.14.42:371][410]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.12-18.14.42:372][410]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.12-18.14.42:409][410]Cmd: MEM
+[2016.10.12-18.14.42:425][410]LogMemory: Platform Memory Stats for Windows
+[2016.10.12-18.14.42:425][410]LogMemory: Process Physical Memory: 1131.54 MB used, 1137.13 MB peak
+[2016.10.12-18.14.42:425][410]LogMemory: Process Virtual Memory: 1810.11 MB used, 1810.11 MB peak
+[2016.10.12-18.14.42:425][410]LogMemory: Physical Memory: 6922.91 MB used, 8145.47 MB total
+[2016.10.12-18.14.42:425][410]LogMemory: Virtual Memory: 2559.75 MB used, 134217728.00 MB total
+[2016.10.12-18.14.42:425][410]LogMemory: 
+[2016.10.12-18.14.42:425][410]Allocator Stats for TBB: (not implemented)
+[2016.10.12-18.14.42:425][410]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_ArenaMap
+[2016.10.12-18.14.42:488][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062289s)
+[2016.10.12-18.14.42:488][410]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.12-18.14.42:489][410]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2016.10.12-18.14.42:489][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/ArenaMap.ArenaMap to /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap (0.063444s)
+[2016.10.12-18.14.42:489][410]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.12-18.14.42:538][410]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.12-19.14.42
+[2016.10.12-18.14.42:541][410]LogWorld: Bringing up level for play took: 0.050284
+[2016.10.12-18.14.42:543][410]LogLoad: Took 0.171686 seconds to LoadMap(/Game/ArenaMap/UEDPIE_0_ArenaMap)
+[2016.10.12-18.14.59:105][ 36]LogBlueprintUserMessages: [AICharacter_C_1] 50
+[2016.10.12-18.15.00:233][131]LogBlueprintUserMessages: [AICharacter_C_1] 0
+[2016.10.12-18.15.01:142][206]LogBlueprintUserMessages: [AICharacter_C_6] 50
+[2016.10.12-18.15.01:335][222]LogBlueprintUserMessages: [AICharacter_C_6] 0
+[2016.10.12-18.15.06:699][674]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.12-18.15.06:699][674]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.12-18.15.06:745][674]Cmd: MEM
+[2016.10.12-18.15.06:761][674]LogMemory: Platform Memory Stats for Windows
+[2016.10.12-18.15.06:761][674]LogMemory: Process Physical Memory: 699.16 MB used, 1173.74 MB peak
+[2016.10.12-18.15.06:761][674]LogMemory: Process Virtual Memory: 1741.06 MB used, 1934.52 MB peak
+[2016.10.12-18.15.06:761][674]LogMemory: Physical Memory: 5877.07 MB used, 8145.47 MB total
+[2016.10.12-18.15.06:761][674]LogMemory: Virtual Memory: 2614.68 MB used, 134217728.00 MB total
+[2016.10.12-18.15.06:761][674]LogMemory: 
+[2016.10.12-18.15.06:761][674]Allocator Stats for TBB: (not implemented)
+[2016.10.12-18.15.06:761][674]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_ArenaMap
+[2016.10.12-18.15.06:821][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059467s)
+[2016.10.12-18.15.06:821][674]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.12-18.15.06:821][674]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2016.10.12-18.15.06:822][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/ArenaMap.ArenaMap to /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap (0.060656s)
+[2016.10.12-18.15.06:822][674]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.12-18.15.06:874][674]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.12-19.15.06
+[2016.10.12-18.15.06:876][674]LogWorld: Bringing up level for play took: 0.053138
+[2016.10.12-18.15.06:878][674]LogLoad: Took 0.179986 seconds to LoadMap(/Game/ArenaMap/UEDPIE_0_ArenaMap)
+[2016.10.12-18.15.07:918][788]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.15.07:960][788]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.15.24:382][251]BlueprintLog: New page: Compile AICharacter
+[2016.10.12-18.15.24:535][251]BlueprintEditorCompileResults: Info [0165.12] Compile of AICharacter successful! [in 153 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.12-18.16.36:504][495]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.12-18.16.48:468][478]BlueprintLog: New page: Compile AICharacter
+[2016.10.12-18.16.48:627][478]BlueprintEditorCompileResults: Info [0249.22] Compile of AICharacter successful! [in 159 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.12-18.19.23:473][823]BlueprintLog: New page: Compile AICharacter
+[2016.10.12-18.19.23:617][823]BlueprintEditorCompileResults: Info [0404.21] Compile of AICharacter successful! [in 143 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.12-18.19.28:549][188]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.19.28:549][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.12-18.19.28:549][188]PIE: New page: PIE session: ArenaMap (12 Oct 2016 19:19:28)
+[2016.10.12-18.19.28:549][188]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_ArenaMap
+[2016.10.12-18.19.28:612][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062790s)
+[2016.10.12-18.19.28:612][188]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.12-18.19.28:612][188]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2016.10.12-18.19.28:613][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/ArenaMap.ArenaMap to /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap (0.064078s)
+[2016.10.12-18.19.28:645][188]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.12-18.19.28:652][188]LogInit: FAudioDevice initialized.
+[2016.10.12-18.19.28:700][188]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.12-18.19.28:738][188]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.12-19.19.28
+[2016.10.12-18.19.28:740][188]LogWorld: Bringing up level for play took: 0.039704
+[2016.10.12-18.19.28:743][188]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_ArenaMap 0.256
+[2016.10.12-18.19.28:743][188]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.19.41:673][538]LogBlueprintUserMessages: [AICharacter_C_3] 50
+[2016.10.12-18.19.41:885][554]LogBlueprintUserMessages: [AICharacter_C_3] 0
+[2016.10.12-18.19.47:735][ 53]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.12-18.19.47:735][ 53]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.12-18.19.47:774][ 53]Cmd: MEM
+[2016.10.12-18.19.47:790][ 53]LogMemory: Platform Memory Stats for Windows
+[2016.10.12-18.19.47:790][ 53]LogMemory: Process Physical Memory: 790.43 MB used, 1173.74 MB peak
+[2016.10.12-18.19.47:790][ 53]LogMemory: Process Virtual Memory: 2021.40 MB used, 2024.75 MB peak
+[2016.10.12-18.19.47:790][ 53]LogMemory: Physical Memory: 6448.92 MB used, 8145.47 MB total
+[2016.10.12-18.19.47:790][ 53]LogMemory: Virtual Memory: 2802.32 MB used, 134217728.00 MB total
+[2016.10.12-18.19.47:790][ 53]LogMemory: 
+[2016.10.12-18.19.47:790][ 53]Allocator Stats for TBB: (not implemented)
+[2016.10.12-18.19.47:790][ 53]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_ArenaMap
+[2016.10.12-18.19.47:852][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061785s)
+[2016.10.12-18.19.47:853][ 53]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.12-18.19.47:853][ 53]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2016.10.12-18.19.47:853][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/ArenaMap.ArenaMap to /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap (0.063071s)
+[2016.10.12-18.19.47:854][ 53]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.12-18.19.47:900][ 53]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.12-19.19.47
+[2016.10.12-18.19.47:901][ 53]LogWorld: Bringing up level for play took: 0.046504
+[2016.10.12-18.19.47:904][ 53]LogLoad: Took 0.168956 seconds to LoadMap(/Game/ArenaMap/UEDPIE_0_ArenaMap)
+[2016.10.12-18.19.49:395][217]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.19.49:432][217]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.20.34:585][189]BlueprintLog: New page: Compile AICharacter
+[2016.10.12-18.20.34:728][189]BlueprintEditorCompileResults: Info [0475.32] Compile of AICharacter successful! [in 142 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.12-18.20.37:124][382]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.20.37:125][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.12-18.20.37:125][382]PIE: New page: PIE session: ArenaMap (12 Oct 2016 19:20:37)
+[2016.10.12-18.20.37:125][382]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_ArenaMap
+[2016.10.12-18.20.37:198][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072878s)
+[2016.10.12-18.20.37:199][382]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.12-18.20.37:199][382]LogPlayLevel: PIE: World Init took: (0.000857s)
+[2016.10.12-18.20.37:199][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/ArenaMap.ArenaMap to /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap (0.074211s)
+[2016.10.12-18.20.37:233][382]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.12-18.20.37:240][382]LogInit: FAudioDevice initialized.
+[2016.10.12-18.20.37:294][382]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.12-18.20.37:333][382]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.12-19.20.37
+[2016.10.12-18.20.37:334][382]LogWorld: Bringing up level for play took: 0.039730
+[2016.10.12-18.20.37:337][382]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_ArenaMap 0.85
+[2016.10.12-18.20.37:337][382]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.20.54:747][158]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.12-18.20.54:748][158]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.12-18.20.54:785][158]Cmd: MEM
+[2016.10.12-18.20.54:802][158]LogMemory: Platform Memory Stats for Windows
+[2016.10.12-18.20.54:802][158]LogMemory: Process Physical Memory: 861.48 MB used, 1173.74 MB peak
+[2016.10.12-18.20.54:802][158]LogMemory: Process Virtual Memory: 2027.41 MB used, 2174.25 MB peak
+[2016.10.12-18.20.54:802][158]LogMemory: Physical Memory: 6562.56 MB used, 8145.47 MB total
+[2016.10.12-18.20.54:802][158]LogMemory: Virtual Memory: 2854.25 MB used, 134217728.00 MB total
+[2016.10.12-18.20.54:802][158]LogMemory: 
+[2016.10.12-18.20.54:802][158]Allocator Stats for TBB: (not implemented)
+[2016.10.12-18.20.54:802][158]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_ArenaMap
+[2016.10.12-18.20.54:863][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060730s)
+[2016.10.12-18.20.54:863][158]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.12-18.20.54:863][158]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2016.10.12-18.20.54:864][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/ArenaMap.ArenaMap to /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap (0.061909s)
+[2016.10.12-18.20.54:864][158]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.12-18.20.54:912][158]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.12-19.20.54
+[2016.10.12-18.20.54:914][158]LogWorld: Bringing up level for play took: 0.049441
+[2016.10.12-18.20.54:916][158]LogLoad: Took 0.168556 seconds to LoadMap(/Game/ArenaMap/UEDPIE_0_ArenaMap)
+[2016.10.12-18.20.56:095][285]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.20.56:132][285]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.22.00:422][698]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.12-18.22.04:063][957]BlueprintLog: New page: Compile AICharacter
+[2016.10.12-18.22.04:212][957]BlueprintEditorCompileResults: Info [0564.80] Compile of AICharacter successful! [in 149 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.12-18.22.07:798][240]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.22.07:798][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.12-18.22.07:799][240]PIE: New page: PIE session: ArenaMap (12 Oct 2016 19:22:07)
+[2016.10.12-18.22.07:799][240]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_ArenaMap
+[2016.10.12-18.22.07:860][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061703s)
+[2016.10.12-18.22.07:861][240]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.12-18.22.07:861][240]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2016.10.12-18.22.07:862][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/ArenaMap.ArenaMap to /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap (0.063009s)
+[2016.10.12-18.22.07:895][240]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.12-18.22.07:901][240]LogInit: FAudioDevice initialized.
+[2016.10.12-18.22.07:950][240]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.12-18.22.07:989][240]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.12-19.22.07
+[2016.10.12-18.22.07:991][240]LogWorld: Bringing up level for play took: 0.039681
+[2016.10.12-18.22.07:993][240]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_ArenaMap -0.493
+[2016.10.12-18.22.07:993][240]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.22.28:027][195]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.12-18.22.28:027][195]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.12-18.22.28:068][195]Cmd: MEM
+[2016.10.12-18.22.28:084][195]LogMemory: Platform Memory Stats for Windows
+[2016.10.12-18.22.28:084][195]LogMemory: Process Physical Memory: 878.18 MB used, 1173.74 MB peak
+[2016.10.12-18.22.28:084][195]LogMemory: Process Virtual Memory: 2033.20 MB used, 2174.25 MB peak
+[2016.10.12-18.22.28:084][195]LogMemory: Physical Memory: 6654.28 MB used, 8145.47 MB total
+[2016.10.12-18.22.28:084][195]LogMemory: Virtual Memory: 2847.07 MB used, 134217728.00 MB total
+[2016.10.12-18.22.28:084][195]LogMemory: 
+[2016.10.12-18.22.28:084][195]Allocator Stats for TBB: (not implemented)
+[2016.10.12-18.22.28:084][195]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_ArenaMap
+[2016.10.12-18.22.28:148][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063144s)
+[2016.10.12-18.22.28:148][195]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.12-18.22.28:148][195]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2016.10.12-18.22.28:149][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/ArenaMap.ArenaMap to /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap (0.064409s)
+[2016.10.12-18.22.28:149][195]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.12-18.22.28:196][195]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.12-19.22.28
+[2016.10.12-18.22.28:198][195]LogWorld: Bringing up level for play took: 0.047412
+[2016.10.12-18.22.28:200][195]LogLoad: Took 0.172360 seconds to LoadMap(/Game/ArenaMap/UEDPIE_0_ArenaMap)
+[2016.10.12-18.22.30:944][495]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.22.30:976][495]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.23.51:253][501]BlueprintLog: New page: Compile Shake
+[2016.10.12-18.23.51:503][501]BlueprintEditorCompileResults: Info [0672.09] Compile of Shake successful! [in 249 ms] (/Game/FirstPersonBP/Blueprints/Shake.Shake)
+[2016.10.12-18.23.52:165][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Shake" FILE="D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/FirstPersonBP/Blueprints/Shake.uasset" SILENT=true
+[2016.10.12-18.23.52:173][560]LogSavePackage: Save=5.99ms
+[2016.10.12-18.23.52:173][560]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/Shake99F7C56D4AB1D71E1BDC75A1DC1ADFD7.tmp' to 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/FirstPersonBP/Blueprints/Shake.uasset'
+[2016.10.12-18.23.52:174][560]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/FirstPersonBP/Blueprints/Shake.uasset
+[2016.10.12-18.25.22:576][454]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ArenaMap/ArenaMap' took 0.022
+[2016.10.12-18.25.22:578][454]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/AICharacter] ([1] browsable assets)...
+[2016.10.12-18.25.22:595][454]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter]
+[2016.10.12-18.25.22:595][454]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/AICharacter]
+[2016.10.12-18.25.22:707][454]LogSavePackage: Save=106.39ms
+[2016.10.12-18.25.22:707][454]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/AICharacter_Auto17A5524F345C44AA9C2BB409BCABC8F3B.tmp' to 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Blueprints/AICharacter_Auto1.uasset'
+[2016.10.12-18.25.22:708][454]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Blueprints/AICharacter_Auto1.uasset
+[2016.10.12-18.25.22:708][454]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/Shake] ([1] browsable assets)...
+[2016.10.12-18.25.22:708][454]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Shake]
+[2016.10.12-18.25.22:962][454]LogSavePackage: Save=251.42ms
+[2016.10.12-18.25.22:962][454]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/Shake_Auto1A0CE650D46FFF595FFFD759D6F8DE62F.tmp' to 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Shake_Auto1.uasset'
+[2016.10.12-18.25.22:962][454]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Shake_Auto1.uasset
+[2016.10.12-18.25.22:962][454]LogFileHelpers: Auto-saving content packages took 0.386
+[2016.10.12-18.25.58:304][534]BlueprintLog: New page: Compile Shake
+[2016.10.12-18.25.58:391][534]BlueprintEditorCompileResults: Info [0798.98] Compile of Shake successful! [in 87 ms] (/Game/FirstPersonBP/Blueprints/Shake.Shake)
+[2016.10.12-18.25.58:983][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Shake" FILE="D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/FirstPersonBP/Blueprints/Shake.uasset" SILENT=true
+[2016.10.12-18.25.58:990][583]LogSavePackage: Save=4.25ms
+[2016.10.12-18.25.58:990][583]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/ShakeAEF395D8454E04D44BAB0885386B911B.tmp' to 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/FirstPersonBP/Blueprints/Shake.uasset'
+[2016.10.12-18.25.58:993][583]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/FirstPersonBP/Blueprints/Shake.uasset
+[2016.10.12-18.26.06:472][158]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.12-18.26.10:790][514]BlueprintLog: New page: Compile AICharacter
+[2016.10.12-18.26.10:931][514]BlueprintEditorCompileResults: Info [0811.52] Compile of AICharacter successful! [in 141 ms] (/Game/FirstPersonBP/Blueprints/AICharacter.AICharacter)
+[2016.10.12-18.26.11:528][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/AICharacter" FILE="D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/FirstPersonBP/Blueprints/AICharacter.uasset" SILENT=true
+[2016.10.12-18.26.11:630][560]LogSavePackage: Save=99.47ms
+[2016.10.12-18.26.11:630][560]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/AICharacter50B5D6834CD69E26629E67ADDA37C919.tmp' to 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/FirstPersonBP/Blueprints/AICharacter.uasset'
+[2016.10.12-18.26.11:631][560]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/FirstPersonBP/Blueprints/AICharacter.uasset
+[2016.10.12-18.26.15:527][886]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.26.15:527][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.12-18.26.15:527][886]PIE: New page: PIE session: ArenaMap (12 Oct 2016 19:26:15)
+[2016.10.12-18.26.15:527][886]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_ArenaMap
+[2016.10.12-18.26.15:588][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061012s)
+[2016.10.12-18.26.15:589][886]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.12-18.26.15:589][886]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2016.10.12-18.26.15:590][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/ArenaMap.ArenaMap to /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap (0.062347s)
+[2016.10.12-18.26.15:621][886]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.12-18.26.15:628][886]LogInit: FAudioDevice initialized.
+[2016.10.12-18.26.15:678][886]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.12-18.26.15:717][886]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.12-19.26.15
+[2016.10.12-18.26.15:719][886]LogWorld: Bringing up level for play took: 0.039946
+[2016.10.12-18.26.15:721][886]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_ArenaMap -0.766
+[2016.10.12-18.26.15:721][886]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.26.35:776][859]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-19.760 Y=100.921 Z=0.000 Location: X=2872.576 Y=-2376.043 Z=302.094 Normal: X=-0.835 Y=-0.549 Z=-0.008 PenetrationDepth:0.591 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.35:874][868]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-1.951 Y=18.277 Z=0.000 Location: X=2871.526 Y=-2376.342 Z=304.257 Normal: X=-0.805 Y=-0.593 Z=-0.009 PenetrationDepth:3.772 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.35:895][870]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-7.564 Y=29.863 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.998 Y=-0.067 Z=-0.003 PenetrationDepth:0.011 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.35:906][871]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-9.553 Y=52.008 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.998 Y=-0.065 Z=-0.003 PenetrationDepth:0.119 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.35:917][872]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-11.632 Y=73.717 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.998 Y=-0.062 Z=-0.003 PenetrationDepth:0.259 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.35:928][873]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-13.931 Y=96.249 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.998 Y=-0.061 Z=-0.003 PenetrationDepth:0.425 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.35:939][874]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-16.458 Y=119.455 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.998 Y=-0.062 Z=-0.003 PenetrationDepth:0.599 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.35:950][875]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-18.986 Y=141.185 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.998 Y=-0.063 Z=-0.003 PenetrationDepth:0.794 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.35:971][877]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-2.851 Y=21.582 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.998 Y=-0.065 Z=-0.003 PenetrationDepth:1.223 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.35:982][878]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-5.872 Y=43.770 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.998 Y=-0.067 Z=-0.003 PenetrationDepth:1.436 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.35:993][879]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-9.023 Y=66.150 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.998 Y=-0.068 Z=-0.004 PenetrationDepth:1.644 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:005][880]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-12.535 Y=90.202 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.998 Y=-0.070 Z=-0.004 PenetrationDepth:1.858 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:016][881]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-15.893 Y=112.272 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.997 Y=-0.071 Z=-0.004 PenetrationDepth:2.061 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:037][883]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-3.275 Y=21.068 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.768 Y=-0.641 Z=-0.009 PenetrationDepth:7.309 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:048][884]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-6.772 Y=42.967 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.765 Y=-0.643 Z=-0.009 PenetrationDepth:7.492 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:059][885]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-10.397 Y=64.999 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.763 Y=-0.647 Z=-0.009 PenetrationDepth:7.695 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:069][886]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-14.034 Y=86.406 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.760 Y=-0.650 Z=-0.009 PenetrationDepth:7.899 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:080][887]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-17.850 Y=108.164 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.757 Y=-0.653 Z=-0.009 PenetrationDepth:8.093 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:091][888]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-21.815 Y=130.030 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.754 Y=-0.657 Z=-0.009 PenetrationDepth:8.303 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:101][889]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-25.876 Y=151.675 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.751 Y=-0.660 Z=-0.009 PenetrationDepth:8.517 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:113][890]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-30.085 Y=173.356 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.748 Y=-0.664 Z=-0.009 PenetrationDepth:8.730 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:124][891]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-34.594 Y=195.802 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.744 Y=-0.668 Z=-0.009 PenetrationDepth:8.951 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:135][892]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-39.286 Y=218.341 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.741 Y=-0.672 Z=-0.009 PenetrationDepth:9.191 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:146][893]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-44.029 Y=240.323 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.737 Y=-0.676 Z=-0.009 PenetrationDepth:9.432 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:156][894]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-48.862 Y=261.957 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.733 Y=-0.680 Z=-0.009 PenetrationDepth:9.670 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:167][895]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-53.737 Y=283.054 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.729 Y=-0.685 Z=-0.009 PenetrationDepth:9.909 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:178][896]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-58.951 Y=304.890 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.728 Y=-0.685 Z=-0.009 PenetrationDepth:9.910 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:189][897]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-64.290 Y=326.503 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.729 Y=-0.685 Z=-0.009 PenetrationDepth:9.656 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:200][898]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-69.658 Y=347.512 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.722 Y=-0.692 Z=-0.009 PenetrationDepth:9.353 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:210][899]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-75.354 Y=369.092 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.711 Y=-0.703 Z=-0.009 PenetrationDepth:8.934 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:221][900]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-81.160 Y=390.353 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.705 Y=-0.709 Z=-0.009 PenetrationDepth:8.814 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:243][902]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-5.104 Y=22.401 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.994 Y=-0.110 Z=-0.006 PenetrationDepth:4.184 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:254][903]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-10.097 Y=44.025 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.994 Y=-0.111 Z=-0.006 PenetrationDepth:4.091 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:265][904]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-15.077 Y=65.357 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.994 Y=-0.112 Z=-0.006 PenetrationDepth:3.967 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:275][905]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-20.099 Y=86.668 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.994 Y=-0.112 Z=-0.006 PenetrationDepth:3.795 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:286][906]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-25.219 Y=108.227 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.994 Y=-0.113 Z=-0.006 PenetrationDepth:3.582 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:297][907]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-30.409 Y=129.962 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.994 Y=-0.113 Z=-0.006 PenetrationDepth:3.329 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:308][908]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-35.598 Y=151.610 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.994 Y=-0.113 Z=-0.006 PenetrationDepth:3.039 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:319][909]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-40.800 Y=173.267 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.994 Y=-0.112 Z=-0.006 PenetrationDepth:2.721 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:329][910]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-45.900 Y=194.502 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.994 Y=-0.111 Z=-0.006 PenetrationDepth:2.377 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:340][911]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-50.958 Y=215.591 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.994 Y=-0.111 Z=-0.006 PenetrationDepth:2.016 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:351][912]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-56.101 Y=237.103 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.994 Y=-0.110 Z=-0.006 PenetrationDepth:1.639 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:362][913]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-61.256 Y=258.769 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.994 Y=-0.109 Z=-0.006 PenetrationDepth:1.237 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:373][914]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-66.559 Y=281.192 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.994 Y=-0.107 Z=-0.006 PenetrationDepth:0.816 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:383][915]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-71.576 Y=302.576 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=0.994 Y=-0.106 Z=-0.006 PenetrationDepth:0.369 Actor:AICharacter_C_10 Component:CharacterMesh0 BoneName:calf_l
+[2016.10.12-18.26.36:406][917]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-5.401 Y=23.030 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.555 Y=-0.832 Z=-0.012 PenetrationDepth:13.714 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:417][918]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-10.454 Y=44.675 Z=0.000 Location: X=2871.465 Y=-2376.260 Z=304.257 Normal: X=-0.529 Y=-0.848 Z=-0.012 PenetrationDepth:13.382 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:428][919]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-15.486 Y=66.337 Z=0.000 Location: X=2871.234 Y=-2376.649 Z=304.252 Normal: X=-0.511 Y=-0.859 Z=-0.013 PenetrationDepth:13.066 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:451][921]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-25.443 Y=109.777 Z=0.000 Location: X=2870.268 Y=-2376.938 Z=304.242 Normal: X=-0.496 Y=-0.868 Z=-0.013 PenetrationDepth:13.055 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:462][922]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-30.568 Y=132.430 Z=0.000 Location: X=2869.914 Y=-2377.580 Z=304.233 Normal: X=-0.483 Y=-0.876 Z=-0.013 PenetrationDepth:12.633 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:483][924]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-40.057 Y=175.211 Z=0.000 Location: X=2868.832 Y=-2377.895 Z=304.222 Normal: X=-0.482 Y=-0.876 Z=-0.013 PenetrationDepth:12.316 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:505][926]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-49.492 Y=218.813 Z=0.000 Location: X=2867.876 Y=-2378.074 Z=304.214 Normal: X=-0.478 Y=-0.878 Z=-0.013 PenetrationDepth:12.215 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:549][930]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-60.416 Y=57.733 Z=0.000 Location: X=2865.670 Y=-2377.717 Z=304.205 Normal: X=-0.458 Y=-0.889 Z=-0.013 PenetrationDepth:10.434 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:571][932]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-59.204 Y=106.809 Z=0.000 Location: X=2864.677 Y=-2377.999 Z=304.196 Normal: X=-0.454 Y=-0.891 Z=-0.014 PenetrationDepth:10.127 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:593][934]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-59.905 Y=152.223 Z=0.000 Location: X=2863.718 Y=-2378.324 Z=304.186 Normal: X=-0.453 Y=-0.892 Z=-0.014 PenetrationDepth:9.809 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:614][936]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-62.182 Y=196.832 Z=0.000 Location: X=2862.804 Y=-2378.596 Z=304.177 Normal: X=-0.450 Y=-0.893 Z=-0.014 PenetrationDepth:9.579 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:635][938]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-65.824 Y=240.539 Z=0.000 Location: X=2862.007 Y=-2378.715 Z=304.170 Normal: X=-0.447 Y=-0.894 Z=-0.014 PenetrationDepth:9.512 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:656][940]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-70.740 Y=284.140 Z=0.000 Location: X=2861.340 Y=-2378.647 Z=304.167 Normal: X=-0.446 Y=-0.895 Z=-0.014 PenetrationDepth:9.599 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:678][942]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-76.826 Y=327.586 Z=0.000 Location: X=2860.757 Y=-2378.443 Z=304.166 Normal: X=-0.448 Y=-0.894 Z=-0.014 PenetrationDepth:9.789 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:699][944]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-46.970 Y=47.361 Z=0.000 Location: X=2860.257 Y=-2378.197 Z=304.166 Normal: X=-0.447 Y=-0.894 Z=-0.014 PenetrationDepth:10.075 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:720][946]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-52.470 Y=49.937 Z=0.000 Location: X=2859.676 Y=-2377.912 Z=304.166 Normal: X=-0.450 Y=-0.893 Z=-0.014 PenetrationDepth:10.311 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:731][947]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-52.506 Y=73.817 Z=0.000 Location: X=2859.676 Y=-2377.912 Z=304.166 Normal: X=-0.445 Y=-0.895 Z=-0.014 PenetrationDepth:10.416 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:743][948]LogCharacterMovement: AICharacter_C_3 is stuck and failed to move! Velocity: X=-53.111 Y=99.349 Z=0.000 Location: X=2859.635 Y=-2377.996 Z=304.165 Normal: X=-0.439 Y=-0.898 Z=-0.014 PenetrationDepth:10.453 Actor:AICharacter_C_7 Component:CharacterMesh0 BoneName:calf_r
+[2016.10.12-18.26.36:754][949]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.12-18.26.36:755][949]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.12-18.26.36:797][949]Cmd: MEM
+[2016.10.12-18.26.36:814][949]LogMemory: Platform Memory Stats for Windows
+[2016.10.12-18.26.36:814][949]LogMemory: Process Physical Memory: 888.82 MB used, 1173.74 MB peak
+[2016.10.12-18.26.36:814][949]LogMemory: Process Virtual Memory: 2197.63 MB used, 2201.05 MB peak
+[2016.10.12-18.26.36:814][949]LogMemory: Physical Memory: 6631.81 MB used, 8145.47 MB total
+[2016.10.12-18.26.36:814][949]LogMemory: Virtual Memory: 3034.51 MB used, 134217728.00 MB total
+[2016.10.12-18.26.36:814][949]LogMemory: 
+[2016.10.12-18.26.36:814][949]Allocator Stats for TBB: (not implemented)
+[2016.10.12-18.26.36:814][949]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_ArenaMap
+[2016.10.12-18.26.36:876][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061744s)
+[2016.10.12-18.26.36:877][949]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.12-18.26.36:877][949]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2016.10.12-18.26.36:878][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/ArenaMap.ArenaMap to /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap (0.063195s)
+[2016.10.12-18.26.36:878][949]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.12-18.26.36:925][949]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.12-19.26.36
+[2016.10.12-18.26.36:927][949]LogWorld: Bringing up level for play took: 0.047738
+[2016.10.12-18.26.36:929][949]LogLoad: Took 0.173603 seconds to LoadMap(/Game/ArenaMap/UEDPIE_0_ArenaMap)
+[2016.10.12-18.26.39:273][216]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.26.39:307][216]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/ArenaMap/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/ArenaMap/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2016.10.12-18.27.19:801][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.10.12-18.27.19:896][615]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.12-18.27.20:085][616]Cmd: QUIT_EDITOR
+[2016.10.12-18.27.20:986][616]LogExit: Preparing to exit.
+[2016.10.12-18.27.21:790][616]LogExit: Editor shut down
+[2016.10.12-18.27.21:791][616]LogExit: Transaction tracking system shut down
+[2016.10.12-18.27.22:032][616]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.12-18.27.22:033][616]LogExit: Object subsystem successfully closed.
+[2016.10.12-18.27.22:057][616]LogD3D11RHI: Shutdown
+[2016.10.12-18.27.22:057][616]LogD3D11RHI: CleanupD3DDevice
+[2016.10.12-18.27.22:142][616]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.12-18.27.22:156][616]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
+[2016.10.12-18.27.22:156][616]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
+[2016.10.12-18.27.22:156][616]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.10.12-18.27.22:156][616]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.10.12-18.27.22:156][616]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.10.12-18.27.22:156][616]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.10.12-18.27.22:156][616]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.10.12-18.27.22:162][616]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.10.12-18.27.22:163][616]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.10.12-18.27.22:163][616]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.10.12-18.27.22:163][616]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.10.12-18.27.22:163][616]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.10.12-18.27.22:163][616]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.10.12-18.27.22:163][616]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.10.12-18.27.22:358][616]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.10.12-18.27.22:358][616]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.10.12-18.27.22:358][616]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.10.12-18.27.22:358][616]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.10.12-18.27.22:358][616]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.10.12-18.27.22:358][616]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.10.12-18.27.22:358][616]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.10.12-18.27.22:358][616]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.10.12-18.27.22:358][616]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.10.12-18.27.22:358][616]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.10.12-18.27.22:358][616]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.10.12-18.27.22:358][616]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.10.12-18.27.22:358][616]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.10.12-18.27.22:358][616]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.10.12-18.27.22:358][616]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.10.12-18.27.22:358][616]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.10.12-18.27.22:359][616]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.10.12-18.27.22:359][616]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.10.12-18.27.22:359][616]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.10.12-18.27.22:359][616]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.10.12-18.27.22:359][616]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.10.12-18.27.22:359][616]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.10.12-18.27.22:359][616]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.10.12-18.27.22:359][616]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.10.12-18.27.22:359][616]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.10.12-18.27.22:401][616]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.10.12-18.27.22:401][616]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.10.12-18.27.22:401][616]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.10.12-18.27.22:401][616]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.10.12-18.27.22:401][616]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.10.12-18.27.22:401][616]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.10.12-18.27.22:401][616]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.10.12-18.27.22:401][616]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.10.12-18.27.22:401][616]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.10.12-18.27.22:401][616]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.10.12-18.27.22:402][616]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.10.12-18.27.22:402][616]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.10.12-18.27.22:402][616]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.10.12-18.27.22:402][616]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.10.12-18.27.22:402][616]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.10.12-18.27.22:402][616]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.10.12-18.27.22:403][616]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.10.12-18.27.22:403][616]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.10.12-18.27.22:403][616]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.10.12-18.27.22:403][616]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.10.12-18.27.22:403][616]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.10.12-18.27.22:403][616]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.10.12-18.27.22:403][616]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.10.12-18.27.22:403][616]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.10.12-18.27.22:403][616]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.10.12-18.27.22:403][616]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.10.12-18.27.22:628][616]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.10.12-18.27.22:628][616]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.10.12-18.27.22:629][616]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.10.12-18.27.22:630][616]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.10.12-18.27.22:630][616]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.10.12-18.27.22:630][616]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.10.12-18.27.22:631][616]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.10.12-18.27.22:631][616]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.10.12-18.27.22:633][616]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.10.12-18.27.22:636][616]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.10.12-18.27.22:637][616]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.10.12-18.27.22:737][616]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.10.12-18.27.22:737][616]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.10.12-18.27.22:737][616]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.10.12-18.27.22:737][616]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.10.12-18.27.22:737][616]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.10.12-18.27.22:737][616]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.10.12-18.27.22:737][616]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.10.12-18.27.22:737][616]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.10.12-18.27.22:738][616]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.10.12-18.27.22:738][616]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.10.12-18.27.22:738][616]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.10.12-18.27.22:738][616]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.10.12-18.27.22:738][616]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.10.12-18.27.22:738][616]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.10.12-18.27.22:738][616]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.10.12-18.27.22:738][616]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.10.12-18.27.22:738][616]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.10.12-18.27.22:738][616]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.10.12-18.27.22:738][616]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.10.12-18.27.22:738][616]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.10.12-18.27.22:738][616]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.10.12-18.27.22:738][616]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.10.12-18.27.22:739][616]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.10.12-18.27.22:739][616]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.10.12-18.27.22:744][616]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.10.12-18.27.22:744][616]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.10.12-18.27.22:744][616]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.10.12-18.27.22:744][616]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.10.12-18.27.22:744][616]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.10.12-18.27.22:744][616]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.10.12-18.27.22:753][616]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.10.12-18.27.22:940][616]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.10.12-18.27.22:940][616]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.10.12-18.27.22:940][616]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.10.12-18.27.22:940][616]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.10.12-18.27.22:982][616]LogDerivedDataCache: Shutdown
+[2016.10.12-18.27.22:982][616]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.10.12-18.27.22:982][616]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.10.12-18.27.22:982][616]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.10.12-18.27.22:982][616]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.10.12-18.27.22:982][616]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.10.12-18.27.22:982][616]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.10.12-18.27.22:982][616]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.10.12-18.27.22:983][616]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.10.12-18.27.24:487][616]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.10.12-18.27.24:487][616]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.10.12-18.27.24:487][616]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.10.12-18.27.24:487][616]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.12-18.27.24:487][616]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.12-18.27.24:487][616]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.12-18.27.24:487][616]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.12-18.27.24:510][616]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.12-18.27.24:510][616]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.12-18.27.24:510][616]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.12-18.27.24:510][616]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.12-18.27.24:510][616]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.12-18.27.24:510][616]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.12-18.27.24:510][616]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.12-18.27.24:510][616]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.12-18.27.24:510][616]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.12-18.27.24:510][616]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.12-18.27.24:513][616]LogExit: Exiting.
+[2016.10.12-18.27.24:520][616]Log file closed, 10/12/16 19:27:24
