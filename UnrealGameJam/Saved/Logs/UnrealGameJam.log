@@ -1,9 +1,9 @@
-﻿Log file open, 10/13/16 00:53:36
+﻿Log file open, 10/13/16 01:42:28
 LogInit:Display: Running engine for game: UnrealGameJam
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1941804388) SRandInit(-1941804387).
+LogInit:Display: RandInit(-818257833) SRandInit(-818257832).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.076247
+LogStats: Stats thread started at 0.075827
 LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
 LogInit: API Version: 2992821
 LogInit: Net Version: 3039270
@@ -44,394 +44,1018 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.10.12-23.53.36:246][  0]LogInit: Selected Device Profile: [Windows]
-[2016.10.12-23.53.36:246][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.10.12-23.53.36:267][  0]LogInit: Computer: DESKTOP-N6TRJQS
-[2016.10.12-23.53.36:267][  0]LogInit: User: Conor
-[2016.10.12-23.53.36:267][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.10.12-23.53.36:267][  0]LogInit: High frequency timer resolution =3.312784 MHz
-[2016.10.12-23.53.36:267][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2016.10.12-23.53.36:267][  0]LogMemory: Platform Memory Stats for Windows
-[2016.10.12-23.53.36:267][  0]LogMemory: Process Physical Memory: 190.68 MB used, 190.68 MB peak
-[2016.10.12-23.53.36:267][  0]LogMemory: Process Virtual Memory: 195.15 MB used, 195.15 MB peak
-[2016.10.12-23.53.36:267][  0]LogMemory: Physical Memory: 6212.94 MB used, 8145.47 MB total
-[2016.10.12-23.53.36:267][  0]LogMemory: Virtual Memory: 553.29 MB used, 134217728.00 MB total
-[2016.10.12-23.53.36:338][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
-[2016.10.12-23.53.36:720][  0]LogD3D11RHI: D3D11 adapters:
-[2016.10.12-23.53.36:750][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
-[2016.10.12-23.53.36:750][  0]LogD3D11RHI:       1505/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2016.10.12-23.53.36:752][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.10.12-23.53.36:752][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2016.10.12-23.53.36:752][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.10.12-23.53.36:756][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.10.12-23.53.36:756][  0]LogD3D11RHI:     GPU DeviceId: 0x1185 (for the marketing name, search the web for "GPU Device Id")
-[2016.10.12-23.53.36:756][  0]LogWindows: EnumDisplayDevices:
-[2016.10.12-23.53.36:756][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:1 D:1)
-[2016.10.12-23.53.36:756][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:0 D:0)
-[2016.10.12-23.53.36:757][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
-[2016.10.12-23.53.36:757][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2016.10.12-23.53.36:757][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
-[2016.10.12-23.53.36:757][  0]LogD3D11RHI:   Driver Version: 372.90 (internal:21.21.13.7290, unified:372.90)
-[2016.10.12-23.53.36:757][  0]LogD3D11RHI:      Driver Date: 9-16-2016
-[2016.10.12-23.53.36:757][  0]LogRHI: Texture pool is 1053 MB (70% of 1505 MB)
-[2016.10.12-23.53.36:769][  0]LogD3D11RHI: Async texture creation enabled
-[2016.10.12-23.53.36:785][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2016.10.12-23.53.36:785][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Intermediate/Shaders/WorkingDirectory/5524/).
-[2016.10.12-23.53.36:785][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Conor/AppData/Local/Temp/UnrealShaderWorkingDir/46AAAB1143BD953C773C0E93AC0B61ED/'.
-[2016.10.12-23.53.36:785][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.10.12-23.53.38:351][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.10.12-23.53.38:365][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.10.12-23.53.38:380][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.10.12-23.53.38:394][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.10.12-23.53.38:408][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.10.12-23.53.38:420][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.10.12-23.53.38:430][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.10.12-23.53.38:441][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.10.12-23.53.38:452][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.10.12-23.53.38:462][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.10.12-23.53.38:473][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.10.12-23.53.38:491][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.10.12-23.53.38:491][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.10.12-23.53.38:492][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.10.12-23.53.38:522][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.10.12-23.53.38:529][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.10.12-23.53.38:536][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.10.12-23.53.38:544][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.10.12-23.53.38:554][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.10.12-23.53.38:554][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.10.12-23.53.38:652][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.10.12-23.53.38:828][  0]LogDerivedDataCache: Loaded boot cache 0.18s 48MB C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.10.12-23.53.38:828][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2016.10.12-23.53.38:828][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Repositories/UnrealGameJam-Last/UnrealGameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.10.12-23.53.38:828][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.10.12-23.53.38:828][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Repositories/UnrealGameJam-Last/UnrealGameJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.10.12-23.53.38:828][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.10.12-23.53.38:846][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.10.12-23.53.38:858][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Conor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.10.12-23.53.40:075][  0]LogInit: Selected Device Profile: [Windows]
-[2016.10.12-23.53.40:076][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.10.12-23.53.40:228][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.10.12-23.53.40:228][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.10.12-23.53.40:228][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.10.12-23.53.40:475][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
-[2016.10.12-23.53.40:498][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.020565 seconds
-[2016.10.12-23.53.40:502][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
-[2016.10.12-23.53.40:502][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
-[2016.10.12-23.53.40:502][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.10.12-23.53.40:511][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.10.12-23.53.40:745][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.10.12-23.53.40:745][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.10.12-23.53.42:519][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.10.12-23.53.42:790][  0]SourceControl: Info Source control is disabled
-[2016.10.12-23.53.42:835][  0]SourceControl: Info Source control is disabled
-[2016.10.12-23.53.42:845][  0]SourceControl: Info Source control is disabled
-[2016.10.12-23.53.42:855][  0]SourceControl: Info Source control is disabled
-[2016.10.12-23.53.43:084][  0]LogEngine: Initializing Engine...
-[2016.10.12-23.53.43:114][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.10.12-23.53.43:114][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.10.12-23.53.43:239][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.10.12-23.53.43:253][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.10.12-23.53.43:264][  0]LogInit: FAudioDevice initialized.
-[2016.10.12-23.53.43:288][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.10.12-23.53.43:295][  0]LogInit: Texture streaming: Enabled
-[2016.10.12-23.53.43:321][  0]LogInit: Transaction tracking system initialized
-[2016.10.12-23.53.43:349][  0]BlueprintLog: New page: Editor Load
-[2016.10.12-23.53.43:438][  0]LocalizationService: Info Localization service is disabled
-[2016.10.12-23.53.43:511][  0]LogConsoleResponse:Display: 
-[2016.10.12-23.53.43:657][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.10.12-23.53.43:657][  0]LogCook:Display: Mobile HDR setting 1
-[2016.10.12-23.53.43:794][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/' took 0.02s
-[2016.10.12-23.53.43:795][  0]SourceControl: Info Source control is disabled
-[2016.10.12-23.53.43:795][  0]Cmd: MAP LOAD FILE="D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/ArenaMap/ArenaMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.10.12-23.53.43:795][  0]LightingResults: New page: Lighting Build
-[2016.10.12-23.53.43:798][  0]MapCheck: New page: Map Check
-[2016.10.12-23.53.43:798][  0]LightingResults: New page: Lighting Build
-[2016.10.12-23.53.45:528][  0]LogAIModule: Creating AISystem for world ArenaMap
-[2016.10.12-23.53.45:688][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.10.12-23.53.45:691][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.10.12-23.53.45:753][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.209ms to complete.
-[2016.10.12-23.53.45:753][  0]LogFileHelpers: Loading map 'ArenaMap' took 1.958
-[2016.10.12-23.53.46:147][  0]LogCollectionManager: Loaded 1 collections in 0.004210 seconds
-[2016.10.12-23.53.46:185][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/Collections/' took 0.01s
-[2016.10.12-23.53.46:185][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/Developers/Conor/Collections/' took 0.01s
-[2016.10.12-23.53.46:185][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/Collections/' took 0.01s
-[2016.10.12-23.53.46:185][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000005 seconds
-[2016.10.12-23.53.46:185][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
-[2016.10.12-23.53.46:193][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2047 classes and 369 folders.
-[2016.10.12-23.53.46:198][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.10.12-23.53.46:198][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.10.12-23.53.46:198][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
-[2016.10.12-23.53.46:204][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.10.12-23.53.46:442][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.10.12-23.53.46:447][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.10.12-23.53.46:514][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.10.12-23.53.46:519][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.10.12-23.53.46:546][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.10.12-23.53.46:546][  0]LogLoad: Full Startup: 11.21 seconds (BP compile: 0.41 seconds)
-[2016.10.12-23.53.46:546][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2016.10.12-23.53.46:555][  0]LogOcInput: OculusInput pre-init called
-[2016.10.12-23.53.46:573][  0]LogContentStreaming: Texture pool size now 700 MB
-[2016.10.12-23.53.46:724][  0]LogRenderer: Reallocating scene render targets to support 1164x624 (Frame:2).
-[2016.10.12-23.53.46:906][  1]LogAssetRegistry: Asset discovery search completed in 6.4520 seconds
-[2016.10.12-23.53.46:906][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000008 seconds (found 0 objects)
-[2016.10.12-23.53.46:906][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000030 seconds (updated 0 objects)
-[2016.10.12-23.54.01:175][463]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ramp2)
-[2016.10.12-23.54.02:078][555]LogEditorViewport: Clicking on Actor (LMB): Emitter (Orb7)
-[2016.10.12-23.54.02:820][636]LogEditorViewport: Clicking on Actor (LMB): PickUpHealth_C (PickUpHealth3)
-[2016.10.12-23.54.04:429][817]Cmd: EDIT COPY
-[2016.10.12-23.54.04:589][833]Cmd: EDIT PASTE
-[2016.10.12-23.54.32:982][549]Cmd: EDIT COPY
-[2016.10.12-23.54.33:153][567]Cmd: EDIT PASTE
-[2016.10.12-23.54.43:302][553]Cmd: TRANSACTION UNDO
-[2016.10.12-23.54.43:302][553]LogEditorTransaction: Undo Move Actors
-[2016.10.12-23.55.10:768][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorExtended29)
-[2016.10.12-23.55.11:851][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorExtended29)
-[2016.10.12-23.55.12:452][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorExtended29)
-[2016.10.12-23.55.12:946][429]LogEditorViewport: Clicking on Actor (LMB): PickUpHealth_C (PickUpHealth5)
-[2016.10.12-23.55.14:528][610]Cmd: EDIT COPY
-[2016.10.12-23.55.14:676][626]Cmd: EDIT PASTE
-[2016.10.12-23.55.50:303][ 39]LogEditorViewport: Clicking on Actor (LMB): PickUpHealth_C (PickUpHealth5)
-[2016.10.12-23.55.54:201][454]Cmd: EDIT COPY
-[2016.10.12-23.55.54:356][471]Cmd: EDIT PASTE
-[2016.10.12-23.56.20:189][ 18]Cmd: EDIT COPY
-[2016.10.12-23.56.20:345][ 35]Cmd: EDIT PASTE
-[2016.10.12-23.56.40:724][ 61]Cmd: EDIT COPY
-[2016.10.12-23.56.40:871][ 77]Cmd: EDIT PASTE
-[2016.10.12-23.57.10:511][944]LogEditorViewport: Clicking on Actor (LMB): PickUpSprint_C (PickUpSprint4)
-[2016.10.12-23.57.13:037][205]LogEditorViewport: Clicking on Actor (LMB): RotatingCluster2_C (RotatingCluster5)
-[2016.10.12-23.57.14:150][331]LogEditorViewport: Clicking on Actor (LMB): PickUpHealth_C (PickUpHealth10)
-[2016.10.12-23.57.15:088][432]Cmd: EDIT COPY
-[2016.10.12-23.57.15:229][447]Cmd: EDIT PASTE
-[2016.10.12-23.57.18:182][749]LogEditorViewport: Clicking on Actor (LMB): PickUpHealth_C (PickUpHealth10)
-[2016.10.12-23.57.24:941][407]LogEditorViewport: Clicking on Actor (LMB): PickUpHealth_C (PickUpHealth11)
-[2016.10.12-23.57.26:768][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloorExtended26)
-[2016.10.12-23.57.31:364][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PlatformCircle4)
-[2016.10.12-23.57.32:813][191]LogEditorViewport: Clicking on Actor (LMB): PickUpHealth_C (PickUpHealth10)
-[2016.10.12-23.57.40:324][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArenaMap/ArenaMap" FILE="D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/ArenaMap/ArenaMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.10.12-23.57.41:745][ 43]LogSavePackage: Save=1064.76ms
-[2016.10.12-23.57.41:745][ 43]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/ArenaMapAB2AF5D14D3CD30BE9E60DB0C10F4E3D.tmp' to 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/ArenaMap/ArenaMap.umap'
-[2016.10.12-23.57.41:749][ 43]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/ArenaMap/ArenaMap.umap
-[2016.10.12-23.57.42:978][167]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.10.12-23.57.43:177][168]Cmd: QUIT_EDITOR
-[2016.10.12-23.57.43:229][168]LogExit: Preparing to exit.
-[2016.10.12-23.57.43:909][168]LogExit: Editor shut down
-[2016.10.12-23.57.43:910][168]LogExit: Transaction tracking system shut down
-[2016.10.12-23.57.44:072][168]LogObj: Freed 0b from 0 cluster array pools.
-[2016.10.12-23.57.44:072][168]LogExit: Object subsystem successfully closed.
-[2016.10.12-23.57.44:089][168]LogD3D11RHI: Shutdown
-[2016.10.12-23.57.44:089][168]LogD3D11RHI: CleanupD3DDevice
-[2016.10.12-23.57.44:171][168]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.10.12-23.57.44:186][168]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
-[2016.10.12-23.57.44:186][168]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
-[2016.10.12-23.57.44:186][168]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
-[2016.10.12-23.57.44:186][168]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
-[2016.10.12-23.57.44:186][168]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
-[2016.10.12-23.57.44:189][168]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
-[2016.10.12-23.57.44:189][168]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
-[2016.10.12-23.57.44:189][168]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
-[2016.10.12-23.57.44:189][168]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
-[2016.10.12-23.57.44:189][168]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
-[2016.10.12-23.57.44:189][168]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module BspMode (198)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module SessionServices (188)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
-[2016.10.12-23.57.44:190][168]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
-[2016.10.12-23.57.44:550][168]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
-[2016.10.12-23.57.44:550][168]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
-[2016.10.12-23.57.44:550][168]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
-[2016.10.12-23.57.44:550][168]LogModuleManager: Shutting down and abandoning module MergeActors (176)
-[2016.10.12-23.57.44:550][168]LogModuleManager: Shutting down and abandoning module SizeMap (175)
-[2016.10.12-23.57.44:551][168]LogModuleManager: Shutting down and abandoning module TreeMap (174)
-[2016.10.12-23.57.44:551][168]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
-[2016.10.12-23.57.44:551][168]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
-[2016.10.12-23.57.44:551][168]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
-[2016.10.12-23.57.44:551][168]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
-[2016.10.12-23.57.44:551][168]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
-[2016.10.12-23.57.44:551][168]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
-[2016.10.12-23.57.44:551][168]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
-[2016.10.12-23.57.44:551][168]LogModuleManager: Shutting down and abandoning module XmlParser (166)
-[2016.10.12-23.57.44:551][168]LogModuleManager: Shutting down and abandoning module Blutility (165)
-[2016.10.12-23.57.44:551][168]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
-[2016.10.12-23.57.44:551][168]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
-[2016.10.12-23.57.44:552][168]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
-[2016.10.12-23.57.44:552][168]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
-[2016.10.12-23.57.44:552][168]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
-[2016.10.12-23.57.44:552][168]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
-[2016.10.12-23.57.44:552][168]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
-[2016.10.12-23.57.44:552][168]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
-[2016.10.12-23.57.44:552][168]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
-[2016.10.12-23.57.44:552][168]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
-[2016.10.12-23.57.44:596][168]LogModuleManager: Shutting down and abandoning module AutomationController (154)
-[2016.10.12-23.57.44:596][168]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
-[2016.10.12-23.57.44:596][168]LogModuleManager: Shutting down and abandoning module Layers (152)
-[2016.10.12-23.57.44:596][168]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
-[2016.10.12-23.57.44:596][168]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
-[2016.10.12-23.57.44:596][168]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
-[2016.10.12-23.57.44:596][168]LogModuleManager: Shutting down and abandoning module Persona (148)
-[2016.10.12-23.57.44:596][168]LogModuleManager: Shutting down and abandoning module Kismet (147)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module Toolbox (144)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module OutputLog (141)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module GammaUI (140)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module Documentation (139)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module Analytics (136)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module PortalServices (135)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module AIModule (130)
-[2016.10.12-23.57.44:597][168]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
-[2016.10.12-23.57.44:801][168]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module SteamVR (125)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module OculusInput (122)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module CableComponent (120)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module SourceControl (106)
-[2016.10.12-23.57.44:802][168]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
-[2016.10.12-23.57.44:803][168]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
-[2016.10.12-23.57.44:803][168]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
-[2016.10.12-23.57.44:803][168]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
-[2016.10.12-23.57.44:803][168]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
-[2016.10.12-23.57.44:803][168]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
-[2016.10.12-23.57.44:803][168]LogModuleManager: Shutting down and abandoning module HotReload (99)
-[2016.10.12-23.57.44:804][168]LogModuleManager: Shutting down and abandoning module MainFrame (98)
-[2016.10.12-23.57.44:804][168]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
-[2016.10.12-23.57.44:805][168]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
-[2016.10.12-23.57.44:807][168]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
-[2016.10.12-23.57.44:807][168]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module Paper2D (92)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module Media (90)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module VREditor (84)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module Sequencer (78)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module AssetTools (75)
-[2016.10.12-23.57.44:908][168]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
-[2016.10.12-23.57.44:909][168]LogModuleManager: Shutting down and abandoning module UMG (73)
-[2016.10.12-23.57.44:909][168]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
-[2016.10.12-23.57.44:909][168]LogModuleManager: Shutting down and abandoning module Slate (71)
-[2016.10.12-23.57.44:909][168]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
-[2016.10.12-23.57.44:912][168]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
-[2016.10.12-23.57.44:912][168]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
-[2016.10.12-23.57.44:912][168]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
-[2016.10.12-23.57.44:912][168]LogModuleManager: Shutting down and abandoning module Networking (65)
-[2016.10.12-23.57.44:912][168]LogModuleManager: Shutting down and abandoning module Core (64)
-[2016.10.12-23.57.44:912][168]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
-[2016.10.12-23.57.44:916][168]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
-[2016.10.12-23.57.45:166][168]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.10.12-23.57.45:166][168]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.10.12-23.57.45:166][168]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.10.12-23.57.45:166][168]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
-[2016.10.12-23.57.45:259][168]LogDerivedDataCache: Shutdown
-[2016.10.12-23.57.45:259][168]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
-[2016.10.12-23.57.45:259][168]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.10.12-23.57.45:260][168]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.10.12-23.57.45:260][168]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.10.12-23.57.45:260][168]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.10.12-23.57.45:260][168]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.10.12-23.57.45:260][168]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.10.12-23.57.45:260][168]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.10.12-23.57.45:260][168]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.10.12-23.57.45:260][168]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.10.12-23.57.45:260][168]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.10.12-23.57.45:260][168]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.10.12-23.57.45:260][168]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.10.12-23.57.45:260][168]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.10.12-23.57.45:260][168]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.10.12-23.57.45:260][168]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.10.12-23.57.45:261][168]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.10.12-23.57.45:262][168]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.10.12-23.57.48:266][168]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.10.12-23.57.48:267][168]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.10.12-23.57.48:267][168]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.10.12-23.57.48:267][168]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.10.12-23.57.48:267][168]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.10.12-23.57.48:267][168]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.10.12-23.57.48:267][168]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.10.12-23.57.48:267][168]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.10.12-23.57.48:267][168]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.10.12-23.57.48:267][168]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.10.12-23.57.48:267][168]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.10.12-23.57.48:267][168]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.10.12-23.57.48:267][168]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.10.12-23.57.48:267][168]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.10.12-23.57.48:267][168]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.10.12-23.57.48:268][168]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.10.12-23.57.48:268][168]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.10.12-23.57.48:269][168]LogExit: Exiting.
-[2016.10.12-23.57.48:272][168]Log file closed, 10/13/16 00:57:48
+[2016.10.13-00.42.28:169][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.13-00.42.28:169][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.13-00.42.28:178][  0]LogInit: Computer: DESKTOP-N6TRJQS
+[2016.10.13-00.42.28:178][  0]LogInit: User: Conor
+[2016.10.13-00.42.28:178][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.13-00.42.28:178][  0]LogInit: High frequency timer resolution =3.312784 MHz
+[2016.10.13-00.42.28:179][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.10.13-00.42.28:179][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.13-00.42.28:179][  0]LogMemory: Process Physical Memory: 190.69 MB used, 190.69 MB peak
+[2016.10.13-00.42.28:179][  0]LogMemory: Process Virtual Memory: 195.13 MB used, 195.13 MB peak
+[2016.10.13-00.42.28:179][  0]LogMemory: Physical Memory: 6341.20 MB used, 8145.47 MB total
+[2016.10.13-00.42.28:179][  0]LogMemory: Virtual Memory: 553.29 MB used, 134217728.00 MB total
+[2016.10.13-00.42.28:205][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.10.13-00.42.28:549][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.13-00.42.28:580][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
+[2016.10.13-00.42.28:580][  0]LogD3D11RHI:       1505/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.13-00.42.28:581][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.13-00.42.28:581][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.13-00.42.28:581][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.13-00.42.28:586][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.13-00.42.28:586][  0]LogD3D11RHI:     GPU DeviceId: 0x1185 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.13-00.42.28:586][  0]LogWindows: EnumDisplayDevices:
+[2016.10.13-00.42.28:586][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:1 D:1)
+[2016.10.13-00.42.28:586][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2016.10.13-00.42.28:586][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2016.10.13-00.42.28:586][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2016.10.13-00.42.28:586][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
+[2016.10.13-00.42.28:586][  0]LogD3D11RHI:   Driver Version: 372.90 (internal:21.21.13.7290, unified:372.90)
+[2016.10.13-00.42.28:586][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2016.10.13-00.42.28:586][  0]LogRHI: Texture pool is 1053 MB (70% of 1505 MB)
+[2016.10.13-00.42.28:598][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.13-00.42.28:615][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.13-00.42.28:615][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Intermediate/Shaders/WorkingDirectory/5440/).
+[2016.10.13-00.42.28:615][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Conor/AppData/Local/Temp/UnrealShaderWorkingDir/1AC94092443A72AC8054CA83E3346B27/'.
+[2016.10.13-00.42.28:615][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.13-00.42.29:589][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.13-00.42.29:598][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.13-00.42.29:607][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.13-00.42.29:616][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.13-00.42.29:626][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.13-00.42.29:634][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.13-00.42.29:641][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.13-00.42.29:648][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.13-00.42.29:656][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.13-00.42.29:663][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.13-00.42.29:671][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.13-00.42.29:685][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.13-00.42.29:685][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.13-00.42.29:686][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.13-00.42.29:708][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.13-00.42.29:715][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.13-00.42.29:725][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.13-00.42.29:738][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.13-00.42.29:753][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.13-00.42.29:753][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.13-00.42.29:889][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.13-00.42.29:944][  0]LogDerivedDataCache: Loaded boot cache 0.06s 48MB C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.13-00.42.29:944][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.10.13-00.42.29:945][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Repositories/UnrealGameJam-Last/UnrealGameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.13-00.42.29:945][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.13-00.42.29:945][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Repositories/UnrealGameJam-Last/UnrealGameJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.13-00.42.29:945][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.13-00.42.29:964][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.13-00.42.29:977][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Conor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.13-00.42.30:275][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.13-00.42.30:276][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.13-00.42.30:485][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.13-00.42.30:485][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.13-00.42.30:485][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.13-00.42.30:729][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2016.10.13-00.42.30:756][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.022161 seconds
+[2016.10.13-00.42.30:760][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.10.13-00.42.30:760][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.10.13-00.42.30:760][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.13-00.42.30:769][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.13-00.42.30:950][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.13-00.42.30:950][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.13-00.42.31:522][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.13-00.42.31:752][  0]SourceControl: Info Source control is disabled
+[2016.10.13-00.42.31:790][  0]SourceControl: Info Source control is disabled
+[2016.10.13-00.42.31:799][  0]SourceControl: Info Source control is disabled
+[2016.10.13-00.42.31:808][  0]SourceControl: Info Source control is disabled
+[2016.10.13-00.42.32:019][  0]LogEngine: Initializing Engine...
+[2016.10.13-00.42.32:019][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.13-00.42.32:020][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.13-00.42.32:147][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.13-00.42.32:159][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-00.42.32:170][  0]LogInit: FAudioDevice initialized.
+[2016.10.13-00.42.32:194][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Conor/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.13-00.42.32:201][  0]LogInit: Texture streaming: Enabled
+[2016.10.13-00.42.32:225][  0]LogInit: Transaction tracking system initialized
+[2016.10.13-00.42.32:251][  0]BlueprintLog: New page: Editor Load
+[2016.10.13-00.42.32:326][  0]LocalizationService: Info Localization service is disabled
+[2016.10.13-00.42.32:388][  0]LogConsoleResponse:Display: 
+[2016.10.13-00.42.32:478][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.13-00.42.32:478][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.13-00.42.32:592][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/' took 0.01s
+[2016.10.13-00.42.32:592][  0]SourceControl: Info Source control is disabled
+[2016.10.13-00.42.32:592][  0]Cmd: MAP LOAD FILE="D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/ArenaMap/ArenaMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.13-00.42.32:593][  0]LightingResults: New page: Lighting Build
+[2016.10.13-00.42.32:596][  0]MapCheck: New page: Map Check
+[2016.10.13-00.42.32:596][  0]LightingResults: New page: Lighting Build
+[2016.10.13-00.42.33:942][  0]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.13-00.42.33:996][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.13-00.42.33:998][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.13-00.42.34:061][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.501ms to complete.
+[2016.10.13-00.42.34:061][  0]LogFileHelpers: Loading map 'ArenaMap' took 1.469
+[2016.10.13-00.42.34:475][  0]LogCollectionManager: Loaded 1 collections in 0.004586 seconds
+[2016.10.13-00.42.34:514][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/Collections/' took 0.01s
+[2016.10.13-00.42.34:514][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/Developers/Conor/Collections/' took 0.01s
+[2016.10.13-00.42.34:514][  0]LogFileCache: Scanning file cache for directory 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/Collections/' took 0.01s
+[2016.10.13-00.42.34:514][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000005 seconds
+[2016.10.13-00.42.34:514][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2016.10.13-00.42.34:525][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2047 classes and 369 folders.
+[2016.10.13-00.42.34:530][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.13-00.42.34:530][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.13-00.42.34:531][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2016.10.13-00.42.34:539][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.10.13-00.42.34:580][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.10.13-00.42.34:586][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.10.13-00.42.34:671][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.13-00.42.34:677][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.13-00.42.34:705][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.10.13-00.42.34:705][  0]LogLoad: Full Startup: 7.25 seconds (BP compile: 0.34 seconds)
+[2016.10.13-00.42.34:705][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.10.13-00.42.34:714][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.13-00.42.34:715][  0]LogOcInput: OculusInput pre-init called
+[2016.10.13-00.42.34:732][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.10.13-00.42.34:919][  0]LogRenderer: Reallocating scene render targets to support 1164x624 (Frame:2).
+[2016.10.13-00.42.35:152][  2]LogAssetRegistry: Asset discovery search completed in 4.4444 seconds
+[2016.10.13-00.42.35:153][  2]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000006 seconds (found 0 objects)
+[2016.10.13-00.42.35:153][  2]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000024 seconds (updated 0 objects)
+[2016.10.13-00.42.56:325][371]LogAIModule: Creating AISystem for world MainMenu
+[2016.10.13-00.42.56:472][371]Cmd: MAP LOAD FILE="D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/ArenaMap/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.13-00.42.56:472][371]LightingResults: New page: Lighting Build
+[2016.10.13-00.42.56:473][371]LoadErrors: New page: Loading map: MainMenu.umap
+[2016.10.13-00.42.56:478][371]MapCheck: New page: Map Check
+[2016.10.13-00.42.56:478][371]LightingResults: New page: Lighting Build
+[2016.10.13-00.42.56:537][371]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.13-00.42.56:568][371]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.13-00.42.56:627][371]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.508ms to complete.
+[2016.10.13-00.42.56:627][371]LogFileHelpers: Loading map 'MainMenu' took 0.156
+[2016.10.13-00.42.58:689][606]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.42.58:689][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-00.42.58:690][606]PIE: New page: PIE session: MainMenu (13 Oct 2016 01:42:58)
+[2016.10.13-00.42.58:690][606]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_MainMenu
+[2016.10.13-00.42.58:693][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002155s)
+[2016.10.13-00.42.58:693][606]LogAIModule: Creating AISystem for world MainMenu
+[2016.10.13-00.42.58:693][606]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2016.10.13-00.42.58:694][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/MainMenu.MainMenu to /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu (0.003129s)
+[2016.10.13-00.42.58:722][606]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-00.42.58:732][606]LogInit: FAudioDevice initialized.
+[2016.10.13-00.42.58:819][606]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-00.42.58:821][606]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.10.13-01.42.58
+[2016.10.13-00.42.58:821][606]LogWorld: Bringing up level for play took: 0.001016
+[2016.10.13-00.42.58:826][606]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2016.10.13-00.42.58:830][606]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_MainMenu 0.345
+[2016.10.13-00.42.58:831][606]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.43.05:139][331]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.13-00.43.05:142][331]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.13-00.43.05:155][331]Cmd: MEM
+[2016.10.13-00.43.05:162][331]LogMemory: Platform Memory Stats for Windows
+[2016.10.13-00.43.05:162][331]LogMemory: Process Physical Memory: 1126.57 MB used, 1166.06 MB peak
+[2016.10.13-00.43.05:162][331]LogMemory: Process Virtual Memory: 1476.23 MB used, 1583.38 MB peak
+[2016.10.13-00.43.05:162][331]LogMemory: Physical Memory: 7118.45 MB used, 8145.47 MB total
+[2016.10.13-00.43.05:162][331]LogMemory: Virtual Memory: 2311.82 MB used, 134217728.00 MB total
+[2016.10.13-00.43.05:162][331]LogMemory: 
+[2016.10.13-00.43.05:162][331]Allocator Stats for TBB: (not implemented)
+[2016.10.13-00.43.06:832][331]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.13-00.43.06:832][331]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-00.43.06:894][331]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.13-01.43.06
+[2016.10.13-00.43.06:899][331]LogWorld: Bringing up level for play took: 0.064961
+[2016.10.13-00.43.06:908][331]LogLoad: Took 1.764991 seconds to LoadMap(/Game/ArenaMap/ArenaMap)
+[2016.10.13-00.43.16:580][445]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.43.16:637][445]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.44.22:307][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.44.22:307][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-00.44.22:307][192]PIE: New page: PIE session: MainMenu (13 Oct 2016 01:44:22)
+[2016.10.13-00.44.22:307][192]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_MainMenu
+[2016.10.13-00.44.22:308][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001440s)
+[2016.10.13-00.44.22:309][192]LogAIModule: Creating AISystem for world MainMenu
+[2016.10.13-00.44.22:309][192]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2016.10.13-00.44.22:309][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/MainMenu.MainMenu to /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu (0.002301s)
+[2016.10.13-00.44.22:331][192]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-00.44.22:338][192]LogInit: FAudioDevice initialized.
+[2016.10.13-00.44.22:388][192]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-00.44.22:390][192]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.10.13-01.44.22
+[2016.10.13-00.44.22:390][192]LogWorld: Bringing up level for play took: 0.000956
+[2016.10.13-00.44.22:395][192]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_MainMenu -0.091
+[2016.10.13-00.44.22:395][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.44.27:558][803]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.13-00.44.27:558][803]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.13-00.44.27:568][803]Cmd: MEM
+[2016.10.13-00.44.27:578][803]LogMemory: Platform Memory Stats for Windows
+[2016.10.13-00.44.27:578][803]LogMemory: Process Physical Memory: 1299.71 MB used, 1434.28 MB peak
+[2016.10.13-00.44.27:578][803]LogMemory: Process Virtual Memory: 1683.34 MB used, 1912.56 MB peak
+[2016.10.13-00.44.27:578][803]LogMemory: Physical Memory: 7217.68 MB used, 8145.47 MB total
+[2016.10.13-00.44.27:578][803]LogMemory: Virtual Memory: 2525.56 MB used, 134217728.00 MB total
+[2016.10.13-00.44.27:578][803]LogMemory: 
+[2016.10.13-00.44.27:578][803]Allocator Stats for TBB: (not implemented)
+[2016.10.13-00.44.28:128][803]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.13-00.44.28:128][803]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-00.44.28:186][803]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.13-01.44.28
+[2016.10.13-00.44.28:188][803]LogWorld: Bringing up level for play took: 0.058619
+[2016.10.13-00.44.28:191][803]LogLoad: Took 0.632335 seconds to LoadMap(/Game/ArenaMap/ArenaMap)
+[2016.10.13-00.44.41:021][303]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.44.41:057][303]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.45.43:003][396]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.45.43:003][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-00.45.43:003][396]PIE: New page: PIE session: MainMenu (13 Oct 2016 01:45:43)
+[2016.10.13-00.45.43:003][396]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_MainMenu
+[2016.10.13-00.45.43:005][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001478s)
+[2016.10.13-00.45.43:005][396]LogAIModule: Creating AISystem for world MainMenu
+[2016.10.13-00.45.43:005][396]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2016.10.13-00.45.43:006][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/MainMenu.MainMenu to /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu (0.002294s)
+[2016.10.13-00.45.43:025][396]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-00.45.43:032][396]LogInit: FAudioDevice initialized.
+[2016.10.13-00.45.43:082][396]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-00.45.43:083][396]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.10.13-01.45.43
+[2016.10.13-00.45.43:084][396]LogWorld: Bringing up level for play took: 0.000871
+[2016.10.13-00.45.43:088][396]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_MainMenu 0.602
+[2016.10.13-00.45.43:088][396]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.46.38:623][774]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 111 classes and 0 folders.
+[2016.10.13-00.46.45:209][254]LogRenderer: Reallocating scene render targets to support 1164x712 (Frame:13237).
+[2016.10.13-00.47.59:557][601]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.47.59:591][601]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.48.16:122][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Do N.K2Node_IfThenElse_3
+[2016.10.13-00.48.16:122][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.16:122][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.16:122][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.16:122][ 25]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3.EdGraphPin_65) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_Event_265.EdGraphPin_84).  Import failed...
+[2016.10.13-00.48.16:122][ 25]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_3.EdGraphPin_65''
+[2016.10.13-00.48.16:122][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78992 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78992
+[2016.10.13-00.48.16:122][ 25]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78992.EdGraphPin_106) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_Event_265.EdGraphPin_85).  Import failed...
+[2016.10.13-00.48.16:122][ 25]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_78992.EdGraphPin_106''
+[2016.10.13-00.48.16:122][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_84975 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_84975
+[2016.10.13-00.48.16:122][ 25]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_84975.EdGraphPin_110) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_Event_265.EdGraphPin_86).  Import failed...
+[2016.10.13-00.48.16:122][ 25]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_84975.EdGraphPin_110''
+[2016.10.13-00.48.16:125][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Do N.K2Node_IfThenElse_3
+[2016.10.13-00.48.16:125][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.16:125][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.16:125][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.16:125][ 25]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3.EdGraphPin_68) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_87).  Import failed...
+[2016.10.13-00.48.16:125][ 25]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_3.EdGraphPin_68''
+[2016.10.13-00.48.16:125][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78994 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78994
+[2016.10.13-00.48.16:125][ 25]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78994.EdGraphPin_115) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_91).  Import failed...
+[2016.10.13-00.48.16:125][ 25]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_78994.EdGraphPin_115''
+[2016.10.13-00.48.16:125][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78996 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78996
+[2016.10.13-00.48.16:125][ 25]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78996.EdGraphPin_118) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_92).  Import failed...
+[2016.10.13-00.48.16:126][ 25]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_78996.EdGraphPin_118''
+[2016.10.13-00.48.16:126][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MakeStruct /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_MakeStruct_1 or K2Node_MakeStruct /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_MakeStruct_1
+[2016.10.13-00.48.16:126][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MakeStruct /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_MakeStruct_1 or K2Node_MakeStruct /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_MakeStruct_1
+[2016.10.13-00.48.16:126][ 25]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_MakeStruct_1.EdGraphPin_119) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_99).  Import failed...
+[2016.10.13-00.48.16:126][ 25]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MakeStruct_1.EdGraphPin_119''
+[2016.10.13-00.48.16:127][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_2615 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_2615
+[2016.10.13-00.48.16:127][ 25]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_2615.EdGraphPin_125) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78992.EdGraphPin_108).  Import failed...
+[2016.10.13-00.48.16:127][ 25]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2615.EdGraphPin_125''
+[2016.10.13-00.48.16:128][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78994 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78994
+[2016.10.13-00.48.16:128][ 25]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78994.EdGraphPin_114) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78992.EdGraphPin_108).  Import failed...
+[2016.10.13-00.48.16:128][ 25]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_78994.EdGraphPin_114''
+[2016.10.13-00.48.16:128][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_2614 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_2614
+[2016.10.13-00.48.16:128][ 25]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_2614.EdGraphPin_129) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_84975.EdGraphPin_112).  Import failed...
+[2016.10.13-00.48.16:128][ 25]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2614.EdGraphPin_129''
+[2016.10.13-00.48.16:129][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78996 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78996
+[2016.10.13-00.48.16:129][ 25]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78996.EdGraphPin_117) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_84975.EdGraphPin_112).  Import failed...
+[2016.10.13-00.48.16:129][ 25]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_78996.EdGraphPin_117''
+[2016.10.13-00.48.16:129][ 25]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_91) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78994.EdGraphPin_115).  Import failed...
+[2016.10.13-00.48.16:129][ 25]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12988.EdGraphPin_91''
+[2016.10.13-00.48.16:130][ 25]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_92) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78996.EdGraphPin_118).  Import failed...
+[2016.10.13-00.48.16:130][ 25]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12988.EdGraphPin_92''
+[2016.10.13-00.48.16:131][ 25]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_99) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_MakeStruct_1.EdGraphPin_119).  Import failed...
+[2016.10.13-00.48.16:131][ 25]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12988.EdGraphPin_99''
+[2016.10.13-00.48.16:134][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Do N.K2Node_IfThenElse_3
+[2016.10.13-00.48.16:134][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.16:134][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.16:134][ 25]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.16:134][ 25]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3.EdGraphPin_66) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_40.EdGraphPin_133).  Import failed...
+[2016.10.13-00.48.16:134][ 25]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_3.EdGraphPin_66''
+[2016.10.13-00.48.16:134][ 25]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_87) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_IfThenElse_3.EdGraphPin_68).  Import failed...
+[2016.10.13-00.48.16:135][ 25]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12988.EdGraphPin_87''
+[2016.10.13-00.48.23:133][673]LogEditorTransaction: Undo Paste clipboard contents
+[2016.10.13-00.48.27:980][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_Event_265 or K2Node_CustomEvent /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_Event_265
+[2016.10.13-00.48.27:981][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Do N.K2Node_IfThenElse_3
+[2016.10.13-00.48.27:981][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.27:981][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.27:981][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.27:981][185]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3.EdGraphPin_65) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_Event_265.EdGraphPin_84).  Import failed...
+[2016.10.13-00.48.27:981][185]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_3.EdGraphPin_65''
+[2016.10.13-00.48.27:981][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78992 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78992
+[2016.10.13-00.48.27:981][185]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78992.EdGraphPin_106) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_Event_265.EdGraphPin_85).  Import failed...
+[2016.10.13-00.48.27:981][185]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_78992.EdGraphPin_106''
+[2016.10.13-00.48.27:981][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_84975 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_84975
+[2016.10.13-00.48.27:981][185]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_84975.EdGraphPin_110) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_Event_265.EdGraphPin_86).  Import failed...
+[2016.10.13-00.48.27:981][185]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_84975.EdGraphPin_110''
+[2016.10.13-00.48.27:982][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Do N.K2Node_IfThenElse_3
+[2016.10.13-00.48.27:982][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.27:982][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.27:982][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.27:982][185]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3.EdGraphPin_68) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_87).  Import failed...
+[2016.10.13-00.48.27:982][185]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_3.EdGraphPin_68''
+[2016.10.13-00.48.27:982][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78994 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78994
+[2016.10.13-00.48.27:982][185]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78994.EdGraphPin_115) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_91).  Import failed...
+[2016.10.13-00.48.27:982][185]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_78994.EdGraphPin_115''
+[2016.10.13-00.48.27:982][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78996 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78996
+[2016.10.13-00.48.27:982][185]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78996.EdGraphPin_118) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_92).  Import failed...
+[2016.10.13-00.48.27:982][185]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_78996.EdGraphPin_118''
+[2016.10.13-00.48.27:983][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MakeStruct /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_MakeStruct_1 or K2Node_MakeStruct /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_MakeStruct_1
+[2016.10.13-00.48.27:983][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MakeStruct /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_MakeStruct_1 or K2Node_MakeStruct /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_MakeStruct_1
+[2016.10.13-00.48.27:983][185]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_MakeStruct_1.EdGraphPin_119) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_99).  Import failed...
+[2016.10.13-00.48.27:983][185]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MakeStruct_1.EdGraphPin_119''
+[2016.10.13-00.48.27:983][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_2615 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_2615
+[2016.10.13-00.48.27:983][185]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_2615.EdGraphPin_125) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78992.EdGraphPin_108).  Import failed...
+[2016.10.13-00.48.27:983][185]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2615.EdGraphPin_125''
+[2016.10.13-00.48.27:983][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78994 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78994
+[2016.10.13-00.48.27:983][185]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78994.EdGraphPin_114) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78992.EdGraphPin_108).  Import failed...
+[2016.10.13-00.48.27:983][185]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_78994.EdGraphPin_114''
+[2016.10.13-00.48.27:984][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_2614 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_2614
+[2016.10.13-00.48.27:984][185]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_2614.EdGraphPin_129) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_84975.EdGraphPin_112).  Import failed...
+[2016.10.13-00.48.27:984][185]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2614.EdGraphPin_129''
+[2016.10.13-00.48.27:984][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78996 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78996
+[2016.10.13-00.48.27:984][185]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78996.EdGraphPin_117) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_84975.EdGraphPin_112).  Import failed...
+[2016.10.13-00.48.27:984][185]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_78996.EdGraphPin_117''
+[2016.10.13-00.48.27:984][185]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_91) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78994.EdGraphPin_115).  Import failed...
+[2016.10.13-00.48.27:984][185]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12988.EdGraphPin_91''
+[2016.10.13-00.48.27:984][185]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_92) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78996.EdGraphPin_118).  Import failed...
+[2016.10.13-00.48.27:984][185]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12988.EdGraphPin_92''
+[2016.10.13-00.48.27:985][185]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_99) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_MakeStruct_1.EdGraphPin_119).  Import failed...
+[2016.10.13-00.48.27:985][185]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12988.EdGraphPin_99''
+[2016.10.13-00.48.27:986][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Do N.K2Node_IfThenElse_3
+[2016.10.13-00.48.27:986][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.27:986][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.27:986][185]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.48.27:986][185]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3.EdGraphPin_66) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_40.EdGraphPin_133).  Import failed...
+[2016.10.13-00.48.27:986][185]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_3.EdGraphPin_66''
+[2016.10.13-00.48.27:986][185]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_87) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_IfThenElse_3.EdGraphPin_68).  Import failed...
+[2016.10.13-00.48.27:986][185]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12988.EdGraphPin_87''
+[2016.10.13-00.50.10:951][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Do N.K2Node_IfThenElse_3
+[2016.10.13-00.50.10:951][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.50.10:951][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.50.10:951][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.50.10:951][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/ArenaMap/Assets/UI/HUD.HUD:ExecuteUbergraph_HUD.K2Node_IfThenElse_3
+[2016.10.13-00.50.10:951][496]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3.EdGraphPin_65) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_Event_265.EdGraphPin_84).  Import failed...
+[2016.10.13-00.50.10:951][496]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_3.EdGraphPin_65''
+[2016.10.13-00.50.10:951][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78992 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78992
+[2016.10.13-00.50.10:951][496]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78992.EdGraphPin_106) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_Event_265.EdGraphPin_85).  Import failed...
+[2016.10.13-00.50.10:951][496]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_78992.EdGraphPin_106''
+[2016.10.13-00.50.10:951][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_84975 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_84975
+[2016.10.13-00.50.10:951][496]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_84975.EdGraphPin_110) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_Event_265.EdGraphPin_86).  Import failed...
+[2016.10.13-00.50.10:951][496]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_84975.EdGraphPin_110''
+[2016.10.13-00.50.10:952][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Do N.K2Node_IfThenElse_3
+[2016.10.13-00.50.10:952][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.50.10:952][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.50.10:952][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.50.10:952][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/ArenaMap/Assets/UI/HUD.HUD:ExecuteUbergraph_HUD.K2Node_IfThenElse_3
+[2016.10.13-00.50.10:952][496]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3.EdGraphPin_68) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_87).  Import failed...
+[2016.10.13-00.50.10:952][496]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_3.EdGraphPin_68''
+[2016.10.13-00.50.10:952][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78994 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78994
+[2016.10.13-00.50.10:952][496]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78994.EdGraphPin_115) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_91).  Import failed...
+[2016.10.13-00.50.10:952][496]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_78994.EdGraphPin_115''
+[2016.10.13-00.50.10:952][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78996 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78996
+[2016.10.13-00.50.10:952][496]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78996.EdGraphPin_118) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_92).  Import failed...
+[2016.10.13-00.50.10:952][496]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_78996.EdGraphPin_118''
+[2016.10.13-00.50.10:953][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MakeStruct /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_MakeStruct_1 or K2Node_MakeStruct /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_MakeStruct_1
+[2016.10.13-00.50.10:953][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MakeStruct /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_MakeStruct_1 or K2Node_MakeStruct /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_MakeStruct_1
+[2016.10.13-00.50.10:953][496]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_MakeStruct_1.EdGraphPin_119) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_99).  Import failed...
+[2016.10.13-00.50.10:953][496]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MakeStruct_1.EdGraphPin_119''
+[2016.10.13-00.50.10:953][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_2615 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_2615
+[2016.10.13-00.50.10:953][496]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_2615.EdGraphPin_125) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78992.EdGraphPin_108).  Import failed...
+[2016.10.13-00.50.10:953][496]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2615.EdGraphPin_125''
+[2016.10.13-00.50.10:953][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78994 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78994
+[2016.10.13-00.50.10:953][496]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78994.EdGraphPin_114) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78992.EdGraphPin_108).  Import failed...
+[2016.10.13-00.50.10:953][496]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_78994.EdGraphPin_114''
+[2016.10.13-00.50.10:954][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_2614 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_2614
+[2016.10.13-00.50.10:954][496]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_2614.EdGraphPin_129) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_84975.EdGraphPin_112).  Import failed...
+[2016.10.13-00.50.10:954][496]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2614.EdGraphPin_129''
+[2016.10.13-00.50.10:954][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78996 or K2Node_CallFunction /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78996
+[2016.10.13-00.50.10:954][496]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_78996.EdGraphPin_117) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_84975.EdGraphPin_112).  Import failed...
+[2016.10.13-00.50.10:954][496]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_78996.EdGraphPin_117''
+[2016.10.13-00.50.10:954][496]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_91) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78994.EdGraphPin_115).  Import failed...
+[2016.10.13-00.50.10:954][496]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12988.EdGraphPin_91''
+[2016.10.13-00.50.10:954][496]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_92) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_78996.EdGraphPin_118).  Import failed...
+[2016.10.13-00.50.10:954][496]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12988.EdGraphPin_92''
+[2016.10.13-00.50.10:955][496]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_99) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_MakeStruct_1.EdGraphPin_119).  Import failed...
+[2016.10.13-00.50.10:955][496]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12988.EdGraphPin_99''
+[2016.10.13-00.50.10:956][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Do N.K2Node_IfThenElse_3
+[2016.10.13-00.50.10:956][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/AICharacter.AICharacter:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.50.10:956][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.50.10:956][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_IfThenElse_3
+[2016.10.13-00.50.10:956][496]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:DoOnce.K2Node_IfThenElse_3 or K2Node_IfThenElse /Game/ArenaMap/Assets/UI/HUD.HUD:ExecuteUbergraph_HUD.K2Node_IfThenElse_3
+[2016.10.13-00.50.10:956][496]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_IfThenElse_3.EdGraphPin_66) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_CallFunction_40.EdGraphPin_133).  Import failed...
+[2016.10.13-00.50.10:956][496]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_3.EdGraphPin_66''
+[2016.10.13-00.50.10:956][496]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD:EventGraph.K2Node_CallFunction_12988.EdGraphPin_87) from referencer (EdGraphPin /Game/ArenaMap/Assets/UI/HUD.HUD:EventGraph.K2Node_IfThenElse_3.EdGraphPin_68).  Import failed...
+[2016.10.13-00.50.10:956][496]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12988.EdGraphPin_87''
+[2016.10.13-00.51.31:844][521]LogTexture:Display: Building textures: RadialMenuCrosshair2 (AutoDXT)
+[2016.10.13-00.52.39:703][803]BlueprintLog: New page: Compile HUD
+[2016.10.13-00.52.39:904][803]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.52.39:904][803]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.52.39:904][803]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.52.39:904][803]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.52.39:904][803]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.52.39:904][803]BlueprintEditorCompileResults: Info [0612.45] Compile of HUD successful! [in 201 ms] (/Game/ArenaMap/Assets/UI/HUD.HUD)
+[2016.10.13-00.52.42:124][987]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.52.42:124][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-00.52.42:124][987]PIE: New page: PIE session: MainMenu (13 Oct 2016 01:52:42)
+[2016.10.13-00.52.42:124][987]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_MainMenu
+[2016.10.13-00.52.42:126][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001431s)
+[2016.10.13-00.52.42:126][987]LogAIModule: Creating AISystem for world MainMenu
+[2016.10.13-00.52.42:126][987]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2016.10.13-00.52.42:126][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/MainMenu.MainMenu to /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu (0.002167s)
+[2016.10.13-00.52.42:153][987]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-00.52.42:160][987]LogInit: FAudioDevice initialized.
+[2016.10.13-00.52.42:210][987]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-00.52.42:212][987]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.10.13-01.52.42
+[2016.10.13-00.52.42:212][987]LogWorld: Bringing up level for play took: 0.000954
+[2016.10.13-00.52.42:216][987]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_MainMenu -0.269
+[2016.10.13-00.52.42:217][987]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.52.47:078][529]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.13-00.52.47:078][529]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.13-00.52.47:098][529]Cmd: MEM
+[2016.10.13-00.52.47:114][529]LogMemory: Platform Memory Stats for Windows
+[2016.10.13-00.52.47:114][529]LogMemory: Process Physical Memory: 765.33 MB used, 1434.28 MB peak
+[2016.10.13-00.52.47:114][529]LogMemory: Process Virtual Memory: 2098.80 MB used, 2111.86 MB peak
+[2016.10.13-00.52.47:114][529]LogMemory: Physical Memory: 6506.07 MB used, 8145.47 MB total
+[2016.10.13-00.52.47:114][529]LogMemory: Virtual Memory: 2953.78 MB used, 134217728.00 MB total
+[2016.10.13-00.52.47:114][529]LogMemory: 
+[2016.10.13-00.52.47:114][529]Allocator Stats for TBB: (not implemented)
+[2016.10.13-00.52.47:642][529]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.13-00.52.47:642][529]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-00.52.47:719][529]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.13-01.52.47
+[2016.10.13-00.52.47:722][529]LogWorld: Bringing up level for play took: 0.078757
+[2016.10.13-00.52.47:724][529]LogLoad: Took 0.646172 seconds to LoadMap(/Game/ArenaMap/ArenaMap)
+[2016.10.13-00.52.49:739][730]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.52.49:778][730]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.55.44:782][130]BlueprintLog: New page: Compile HUD
+[2016.10.13-00.55.44:906][130]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.55.44:906][130]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.55.44:906][130]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.55.44:906][130]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.55.44:906][130]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.55.44:906][130]BlueprintEditorCompileResults: Info [0797.45] Compile of HUD successful! [in 123 ms] (/Game/ArenaMap/Assets/UI/HUD.HUD)
+[2016.10.13-00.55.47:599][347]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.55.47:599][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-00.55.47:599][347]PIE: New page: PIE session: MainMenu (13 Oct 2016 01:55:47)
+[2016.10.13-00.55.47:599][347]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_MainMenu
+[2016.10.13-00.55.47:601][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001346s)
+[2016.10.13-00.55.47:601][347]LogAIModule: Creating AISystem for world MainMenu
+[2016.10.13-00.55.47:601][347]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2016.10.13-00.55.47:602][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/MainMenu.MainMenu to /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu (0.002119s)
+[2016.10.13-00.55.47:627][347]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-00.55.47:634][347]LogInit: FAudioDevice initialized.
+[2016.10.13-00.55.47:688][347]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-00.55.47:689][347]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.10.13-01.55.47
+[2016.10.13-00.55.47:690][347]LogWorld: Bringing up level for play took: 0.001027
+[2016.10.13-00.55.47:694][347]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_MainMenu -0.791
+[2016.10.13-00.55.47:694][347]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.55.52:900][942]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.13-00.55.52:901][942]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.13-00.55.52:921][942]Cmd: MEM
+[2016.10.13-00.55.52:937][942]LogMemory: Platform Memory Stats for Windows
+[2016.10.13-00.55.52:937][942]LogMemory: Process Physical Memory: 793.96 MB used, 1434.28 MB peak
+[2016.10.13-00.55.52:937][942]LogMemory: Process Virtual Memory: 2244.13 MB used, 2368.24 MB peak
+[2016.10.13-00.55.52:937][942]LogMemory: Physical Memory: 6413.60 MB used, 8145.47 MB total
+[2016.10.13-00.55.52:937][942]LogMemory: Virtual Memory: 3120.66 MB used, 134217728.00 MB total
+[2016.10.13-00.55.52:937][942]LogMemory: 
+[2016.10.13-00.55.52:937][942]Allocator Stats for TBB: (not implemented)
+[2016.10.13-00.55.53:445][942]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.13-00.55.53:445][942]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-00.55.53:504][942]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.13-01.55.53
+[2016.10.13-00.55.53:507][942]LogWorld: Bringing up level for play took: 0.060724
+[2016.10.13-00.55.53:510][942]LogLoad: Took 0.608744 seconds to LoadMap(/Game/ArenaMap/ArenaMap)
+[2016.10.13-00.55.55:612][175]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.55.55:648][175]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.56.44:571][112]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ArenaMap/MainMenu' took 0.015
+[2016.10.13-00.56.44:573][112]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ArenaMap/Assets/UI/HUD] ([1] browsable assets)...
+[2016.10.13-00.56.44:574][112]OBJ SavePackage: Finished generating thumbnails for package [/Game/ArenaMap/Assets/UI/HUD]
+[2016.10.13-00.56.44:574][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArenaMap/Assets/UI/HUD" FILE="D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/Autosaves/Game/ArenaMap/Assets/UI/HUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.10.13-00.56.44:626][112]LogSavePackage: Save=45.90ms
+[2016.10.13-00.56.44:626][112]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/HUD_Auto1F07BFE334AE1C17C368EEEA1B625CD59.tmp' to 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/Autosaves/Game/ArenaMap/Assets/UI/HUD_Auto1.uasset'
+[2016.10.13-00.56.44:627][112]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/Autosaves/Game/ArenaMap/Assets/UI/HUD_Auto1.uasset
+[2016.10.13-00.56.44:627][112]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonGameMode] ([1] browsable assets)...
+[2016.10.13-00.56.44:627][112]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonGameMode]
+[2016.10.13-00.56.44:673][112]LogSavePackage: Save=40.47ms
+[2016.10.13-00.56.44:673][112]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/FirstPersonGameMode_Auto1515BCB27449AF5732017948E8F5B7D0D.tmp' to 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonGameMode_Auto1.uasset'
+[2016.10.13-00.56.44:674][112]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonGameMode_Auto1.uasset
+[2016.10.13-00.56.44:674][112]LogFileHelpers: Auto-saving content packages took 0.101
+[2016.10.13-00.57.21:347][690]LogEditorTransaction: Undo Spawn Play From Here Start
+[2016.10.13-00.57.22:622][690]LogDesktopPlatform:Warning: Error reading results of folder dialog.
+[2016.10.13-00.57.42:851][ 62]BlueprintLog: New page: Compile HUD
+[2016.10.13-00.57.42:968][ 62]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.57.42:968][ 62]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.57.42:968][ 62]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.57.42:968][ 62]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.57.42:968][ 62]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.57.42:968][ 62]BlueprintEditorCompileResults: Info [0915.52] Compile of HUD successful! [in 116 ms] (/Game/ArenaMap/Assets/UI/HUD.HUD)
+[2016.10.13-00.57.46:731][318]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.57.46:731][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-00.57.46:731][318]PIE: New page: PIE session: MainMenu (13 Oct 2016 01:57:46)
+[2016.10.13-00.57.46:731][318]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_MainMenu
+[2016.10.13-00.57.46:732][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001337s)
+[2016.10.13-00.57.46:733][318]LogAIModule: Creating AISystem for world MainMenu
+[2016.10.13-00.57.46:733][318]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2016.10.13-00.57.46:733][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/MainMenu.MainMenu to /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu (0.002045s)
+[2016.10.13-00.57.46:758][318]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-00.57.46:765][318]LogInit: FAudioDevice initialized.
+[2016.10.13-00.57.46:814][318]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-00.57.46:815][318]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.10.13-01.57.46
+[2016.10.13-00.57.46:815][318]LogWorld: Bringing up level for play took: 0.000801
+[2016.10.13-00.57.46:819][318]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_MainMenu 0.334
+[2016.10.13-00.57.46:820][318]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.57.51:671][885]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.13-00.57.51:671][885]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.13-00.57.51:689][885]Cmd: MEM
+[2016.10.13-00.57.51:703][885]LogMemory: Platform Memory Stats for Windows
+[2016.10.13-00.57.51:703][885]LogMemory: Process Physical Memory: 866.75 MB used, 1434.28 MB peak
+[2016.10.13-00.57.51:703][885]LogMemory: Process Virtual Memory: 2249.83 MB used, 2368.24 MB peak
+[2016.10.13-00.57.51:703][885]LogMemory: Physical Memory: 6479.39 MB used, 8145.47 MB total
+[2016.10.13-00.57.51:703][885]LogMemory: Virtual Memory: 3211.13 MB used, 134217728.00 MB total
+[2016.10.13-00.57.51:703][885]LogMemory: 
+[2016.10.13-00.57.51:703][885]Allocator Stats for TBB: (not implemented)
+[2016.10.13-00.57.52:211][885]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.13-00.57.52:211][885]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-00.57.52:269][885]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.13-01.57.52
+[2016.10.13-00.57.52:271][885]LogWorld: Bringing up level for play took: 0.059216
+[2016.10.13-00.57.52:274][885]LogLoad: Took 0.603152 seconds to LoadMap(/Game/ArenaMap/ArenaMap)
+[2016.10.13-00.58.02:762][104]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.58.02:803][104]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.58.17:832][ 21]BlueprintLog: New page: Compile HUD
+[2016.10.13-00.58.17:944][ 21]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.58.17:944][ 21]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.58.17:945][ 21]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.58.17:945][ 21]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.58.17:945][ 21]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-00.58.17:945][ 21]BlueprintEditorCompileResults: Info [0950.49] Compile of HUD successful! [in 112 ms] (/Game/ArenaMap/Assets/UI/HUD.HUD)
+[2016.10.13-00.58.22:506][454]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.58.22:506][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-00.58.22:506][454]PIE: New page: PIE session: MainMenu (13 Oct 2016 01:58:22)
+[2016.10.13-00.58.22:507][454]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_MainMenu
+[2016.10.13-00.58.22:508][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001369s)
+[2016.10.13-00.58.22:508][454]LogAIModule: Creating AISystem for world MainMenu
+[2016.10.13-00.58.22:509][454]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2016.10.13-00.58.22:509][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/MainMenu.MainMenu to /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu (0.002086s)
+[2016.10.13-00.58.22:536][454]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-00.58.22:543][454]LogInit: FAudioDevice initialized.
+[2016.10.13-00.58.22:591][454]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-00.58.22:593][454]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.10.13-01.58.22
+[2016.10.13-00.58.22:593][454]LogWorld: Bringing up level for play took: 0.000846
+[2016.10.13-00.58.22:597][454]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_MainMenu 0.112
+[2016.10.13-00.58.22:597][454]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.58.27:454][ 20]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.13-00.58.27:454][ 20]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.13-00.58.27:471][ 20]Cmd: MEM
+[2016.10.13-00.58.27:487][ 20]LogMemory: Platform Memory Stats for Windows
+[2016.10.13-00.58.27:487][ 20]LogMemory: Process Physical Memory: 880.89 MB used, 1434.28 MB peak
+[2016.10.13-00.58.27:487][ 20]LogMemory: Process Virtual Memory: 2262.85 MB used, 2379.70 MB peak
+[2016.10.13-00.58.27:487][ 20]LogMemory: Physical Memory: 6535.63 MB used, 8145.47 MB total
+[2016.10.13-00.58.27:487][ 20]LogMemory: Virtual Memory: 3218.82 MB used, 134217728.00 MB total
+[2016.10.13-00.58.27:487][ 20]LogMemory: 
+[2016.10.13-00.58.27:487][ 20]Allocator Stats for TBB: (not implemented)
+[2016.10.13-00.58.27:981][ 20]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.13-00.58.27:982][ 20]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-00.58.28:040][ 20]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.13-01.58.28
+[2016.10.13-00.58.28:042][ 20]LogWorld: Bringing up level for play took: 0.059789
+[2016.10.13-00.58.28:045][ 20]LogLoad: Took 0.591262 seconds to LoadMap(/Game/ArenaMap/ArenaMap)
+[2016.10.13-00.58.32:319][490]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.58.32:358][490]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-00.59.21:309][834]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Conor\Downloads\Crosshair.png)
+[2016.10.13-00.59.21:367][834]LogTexture:Display: Building textures: Crosshair (BGRA8)
+[2016.10.13-01.01.18:246][112]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2016.10.13-01.01.35:700][190]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.10.13-01.01.37:256][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArenaMap/Assets/Asset/Crosshair" FILE="D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/ArenaMap/Assets/Asset/Crosshair.uasset" SILENT=true
+[2016.10.13-01.01.37:317][350]LogSavePackage: Save=59.66ms
+[2016.10.13-01.01.37:317][350]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/Crosshair7133856241F5D6A406ECE3B2FEDA507A.tmp' to 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/ArenaMap/Assets/Asset/Crosshair.uasset'
+[2016.10.13-01.01.37:318][350]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/ArenaMap/Assets/Asset/Crosshair.uasset
+[2016.10.13-01.02.10:553][537]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.13-01.06.23:708][754]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.13-01.07.50:286][506]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.07.50:286][506]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.13-01.07.50:292][506]LogPlayLevel: [PlayLevel] Compiling FirstPersonHUD before play...
+[2016.10.13-01.07.50:398][506]LogPlayLevel: PlayLevel: Blueprint regeneration took 112 ms (1 blueprints)
+[2016.10.13-01.07.50:419][506]PIE: New page: PIE session: MainMenu (13 Oct 2016 02:07:50)
+[2016.10.13-01.07.50:419][506]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_MainMenu
+[2016.10.13-01.07.50:420][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001495s)
+[2016.10.13-01.07.50:421][506]LogAIModule: Creating AISystem for world MainMenu
+[2016.10.13-01.07.50:421][506]LogPlayLevel: PIE: World Init took: (0.001194s)
+[2016.10.13-01.07.50:422][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/MainMenu.MainMenu to /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu (0.002898s)
+[2016.10.13-01.07.50:450][506]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-01.07.50:458][506]LogInit: FAudioDevice initialized.
+[2016.10.13-01.07.50:502][506]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-01.07.50:506][506]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.10.13-02.07.50
+[2016.10.13-01.07.50:506][506]LogWorld: Bringing up level for play took: 0.001986
+[2016.10.13-01.07.50:520][506]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_MainMenu 0.034
+[2016.10.13-01.07.50:520][506]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.07.55:602][105]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.13-01.07.55:603][105]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.13-01.07.55:621][105]Cmd: MEM
+[2016.10.13-01.07.55:637][105]LogMemory: Platform Memory Stats for Windows
+[2016.10.13-01.07.55:637][105]LogMemory: Process Physical Memory: 780.18 MB used, 1434.28 MB peak
+[2016.10.13-01.07.55:637][105]LogMemory: Process Virtual Memory: 2451.18 MB used, 2457.91 MB peak
+[2016.10.13-01.07.55:637][105]LogMemory: Physical Memory: 6736.29 MB used, 8145.47 MB total
+[2016.10.13-01.07.55:637][105]LogMemory: Virtual Memory: 3386.05 MB used, 134217728.00 MB total
+[2016.10.13-01.07.55:638][105]LogMemory: 
+[2016.10.13-01.07.55:638][105]Allocator Stats for TBB: (not implemented)
+[2016.10.13-01.07.56:299][105]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.13-01.07.56:299][105]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-01.07.56:359][105]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.13-02.07.56
+[2016.10.13-01.07.56:361][105]LogWorld: Bringing up level for play took: 0.061221
+[2016.10.13-01.07.56:365][105]LogLoad: Took 0.762346 seconds to LoadMap(/Game/ArenaMap/ArenaMap)
+[2016.10.13-01.07.57:111][162]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.07.57:147][162]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.07.59:203][354]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.07.59:203][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-01.07.59:203][354]PIE: New page: PIE session: MainMenu (13 Oct 2016 02:07:59)
+[2016.10.13-01.07.59:204][354]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_MainMenu
+[2016.10.13-01.07.59:205][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001512s)
+[2016.10.13-01.07.59:206][354]LogAIModule: Creating AISystem for world MainMenu
+[2016.10.13-01.07.59:206][354]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2016.10.13-01.07.59:206][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/MainMenu.MainMenu to /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu (0.002348s)
+[2016.10.13-01.07.59:234][354]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-01.07.59:241][354]LogInit: FAudioDevice initialized.
+[2016.10.13-01.07.59:294][354]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-01.07.59:295][354]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.10.13-02.07.59
+[2016.10.13-01.07.59:296][354]LogWorld: Bringing up level for play took: 0.000976
+[2016.10.13-01.07.59:301][354]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_MainMenu 0.815
+[2016.10.13-01.07.59:301][354]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.08.04:222][929]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.13-01.08.04:222][929]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.13-01.08.04:243][929]Cmd: MEM
+[2016.10.13-01.08.04:259][929]LogMemory: Platform Memory Stats for Windows
+[2016.10.13-01.08.04:259][929]LogMemory: Process Physical Memory: 1040.21 MB used, 1434.28 MB peak
+[2016.10.13-01.08.04:259][929]LogMemory: Process Virtual Memory: 2484.29 MB used, 2617.82 MB peak
+[2016.10.13-01.08.04:259][929]LogMemory: Physical Memory: 7011.01 MB used, 8145.47 MB total
+[2016.10.13-01.08.04:259][929]LogMemory: Virtual Memory: 3470.11 MB used, 134217728.00 MB total
+[2016.10.13-01.08.04:259][929]LogMemory: 
+[2016.10.13-01.08.04:259][929]Allocator Stats for TBB: (not implemented)
+[2016.10.13-01.08.04:771][929]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.13-01.08.04:772][929]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-01.08.04:832][929]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.13-02.08.04
+[2016.10.13-01.08.04:834][929]LogWorld: Bringing up level for play took: 0.061630
+[2016.10.13-01.08.04:838][929]LogLoad: Took 0.616175 seconds to LoadMap(/Game/ArenaMap/ArenaMap)
+[2016.10.13-01.08.30:726][503]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.13-01.08.30:736][503]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.13-01.08.30:796][503]Cmd: MEM
+[2016.10.13-01.08.30:813][503]LogMemory: Platform Memory Stats for Windows
+[2016.10.13-01.08.30:813][503]LogMemory: Process Physical Memory: 1071.52 MB used, 1434.28 MB peak
+[2016.10.13-01.08.30:813][503]LogMemory: Process Virtual Memory: 2549.39 MB used, 2617.82 MB peak
+[2016.10.13-01.08.30:813][503]LogMemory: Physical Memory: 7030.67 MB used, 8145.47 MB total
+[2016.10.13-01.08.30:813][503]LogMemory: Virtual Memory: 3491.98 MB used, 134217728.00 MB total
+[2016.10.13-01.08.30:813][503]LogMemory: 
+[2016.10.13-01.08.30:813][503]Allocator Stats for TBB: (not implemented)
+[2016.10.13-01.08.31:311][503]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.13-01.08.31:311][503]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-01.08.31:369][503]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.13-02.08.31
+[2016.10.13-01.08.31:371][503]LogWorld: Bringing up level for play took: 0.059022
+[2016.10.13-01.08.31:375][503]LogLoad: Took 0.638577 seconds to LoadMap(/Game/ArenaMap/ArenaMap)
+[2016.10.13-01.08.32:172][568]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.08.32:209][568]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.10.49:123][ 75]BlueprintLog: New page: Compile HUD
+[2016.10.13-01.10.49:352][ 75]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-01.10.49:352][ 75]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-01.10.49:352][ 75]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-01.10.49:352][ 75]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-01.10.49:352][ 75]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-01.10.49:352][ 75]BlueprintEditorCompileResults: Info [1701.90] Compile of HUD successful! [in 228 ms] (/Game/ArenaMap/Assets/UI/HUD.HUD)
+[2016.10.13-01.11.08:828][927]BlueprintLog: New page: Compile FirstPersonHUD
+[2016.10.13-01.11.08:920][927]BlueprintEditorCompileResults: Info [1721.47] Compile of FirstPersonHUD successful! [in 91 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD)
+[2016.10.13-01.11.13:538][399]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.11.13:538][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-01.11.13:539][399]PIE: New page: PIE session: MainMenu (13 Oct 2016 02:11:13)
+[2016.10.13-01.11.13:539][399]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_MainMenu
+[2016.10.13-01.11.13:540][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001370s)
+[2016.10.13-01.11.13:541][399]LogAIModule: Creating AISystem for world MainMenu
+[2016.10.13-01.11.13:541][399]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2016.10.13-01.11.13:541][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/MainMenu.MainMenu to /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu (0.002128s)
+[2016.10.13-01.11.13:568][399]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-01.11.13:575][399]LogInit: FAudioDevice initialized.
+[2016.10.13-01.11.13:623][399]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-01.11.13:625][399]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.10.13-02.11.13
+[2016.10.13-01.11.13:625][399]LogWorld: Bringing up level for play took: 0.000933
+[2016.10.13-01.11.13:630][399]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_MainMenu -0.856
+[2016.10.13-01.11.13:630][399]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.11.18:465][958]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.13-01.11.18:465][958]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.13-01.11.18:483][958]Cmd: MEM
+[2016.10.13-01.11.18:500][958]LogMemory: Platform Memory Stats for Windows
+[2016.10.13-01.11.18:500][958]LogMemory: Process Physical Memory: 920.23 MB used, 1434.28 MB peak
+[2016.10.13-01.11.18:500][958]LogMemory: Process Virtual Memory: 2537.11 MB used, 2667.71 MB peak
+[2016.10.13-01.11.18:500][958]LogMemory: Physical Memory: 6636.18 MB used, 8145.47 MB total
+[2016.10.13-01.11.18:500][958]LogMemory: Virtual Memory: 3515.11 MB used, 134217728.00 MB total
+[2016.10.13-01.11.18:500][958]LogMemory: 
+[2016.10.13-01.11.18:500][958]Allocator Stats for TBB: (not implemented)
+[2016.10.13-01.11.19:022][958]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.13-01.11.19:022][958]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-01.11.19:080][958]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.13-02.11.19
+[2016.10.13-01.11.19:083][958]LogWorld: Bringing up level for play took: 0.059532
+[2016.10.13-01.11.19:086][958]LogLoad: Took 0.621406 seconds to LoadMap(/Game/ArenaMap/ArenaMap)
+[2016.10.13-01.11.22:250][298]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.11.22:290][298]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.11.38:662][464]BlueprintLog: New page: Compile HUD
+[2016.10.13-01.11.38:786][464]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-01.11.38:786][464]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-01.11.38:786][464]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-01.11.38:786][464]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-01.11.38:786][464]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-01.11.38:786][464]BlueprintEditorCompileResults: Info [1751.33] Compile of HUD successful! [in 123 ms] (/Game/ArenaMap/Assets/UI/HUD.HUD)
+[2016.10.13-01.11.41:819][727]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.11.41:820][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-01.11.41:820][727]PIE: New page: PIE session: MainMenu (13 Oct 2016 02:11:41)
+[2016.10.13-01.11.41:820][727]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_MainMenu
+[2016.10.13-01.11.41:821][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001409s)
+[2016.10.13-01.11.41:822][727]LogAIModule: Creating AISystem for world MainMenu
+[2016.10.13-01.11.41:822][727]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2016.10.13-01.11.41:822][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/MainMenu.MainMenu to /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu (0.002126s)
+[2016.10.13-01.11.41:848][727]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-01.11.41:855][727]LogInit: FAudioDevice initialized.
+[2016.10.13-01.11.41:907][727]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-01.11.41:909][727]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.10.13-02.11.41
+[2016.10.13-01.11.41:909][727]LogWorld: Bringing up level for play took: 0.000933
+[2016.10.13-01.11.41:914][727]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_MainMenu -0.572
+[2016.10.13-01.11.41:914][727]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.11.47:442][358]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.13-01.11.47:442][358]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.13-01.11.47:462][358]Cmd: MEM
+[2016.10.13-01.11.47:479][358]LogMemory: Platform Memory Stats for Windows
+[2016.10.13-01.11.47:479][358]LogMemory: Process Physical Memory: 909.17 MB used, 1434.28 MB peak
+[2016.10.13-01.11.47:479][358]LogMemory: Process Virtual Memory: 2544.38 MB used, 2667.71 MB peak
+[2016.10.13-01.11.47:479][358]LogMemory: Physical Memory: 6675.21 MB used, 8145.47 MB total
+[2016.10.13-01.11.47:479][358]LogMemory: Virtual Memory: 3530.05 MB used, 134217728.00 MB total
+[2016.10.13-01.11.47:479][358]LogMemory: 
+[2016.10.13-01.11.47:479][358]Allocator Stats for TBB: (not implemented)
+[2016.10.13-01.11.47:982][358]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.13-01.11.47:983][358]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-01.11.48:041][358]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.13-02.11.48
+[2016.10.13-01.11.48:043][358]LogWorld: Bringing up level for play took: 0.059548
+[2016.10.13-01.11.48:047][358]LogLoad: Took 0.605279 seconds to LoadMap(/Game/ArenaMap/ArenaMap)
+[2016.10.13-01.12.02:122][974]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.12.02:162][974]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.12.24:190][218]BlueprintLog: New page: Compile HUD
+[2016.10.13-01.12.24:310][218]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-01.12.24:310][218]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-01.12.24:310][218]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-01.12.24:310][218]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-01.12.24:310][218]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2016.10.13-01.12.24:310][218]BlueprintEditorCompileResults: Info [1796.86] Compile of HUD successful! [in 120 ms] (/Game/ArenaMap/Assets/UI/HUD.HUD)
+[2016.10.13-01.12.27:618][501]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.12.27:618][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-01.12.27:618][501]PIE: New page: PIE session: MainMenu (13 Oct 2016 02:12:27)
+[2016.10.13-01.12.27:618][501]LogPlayLevel: Creating play world package: /Game/ArenaMap/UEDPIE_0_MainMenu
+[2016.10.13-01.12.27:620][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001341s)
+[2016.10.13-01.12.27:620][501]LogAIModule: Creating AISystem for world MainMenu
+[2016.10.13-01.12.27:620][501]LogPlayLevel: PIE: World Init took: (0.000507s)
+[2016.10.13-01.12.27:620][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ArenaMap/MainMenu.MainMenu to /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu (0.002036s)
+[2016.10.13-01.12.27:648][501]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-01.12.27:655][501]LogInit: FAudioDevice initialized.
+[2016.10.13-01.12.27:708][501]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-01.12.27:710][501]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.10.13-02.12.27
+[2016.10.13-01.12.27:710][501]LogWorld: Bringing up level for play took: 0.000803
+[2016.10.13-01.12.27:715][501]PIE: Info Play in editor start time for /Game/ArenaMap/UEDPIE_0_MainMenu -0.771
+[2016.10.13-01.12.27:715][501]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.12.32:944][108]LogNet: Browse: /Game/ArenaMap/ArenaMap
+[2016.10.13-01.12.32:946][108]LogLoad: LoadMap: /Game/ArenaMap/ArenaMap
+[2016.10.13-01.12.32:964][108]Cmd: MEM
+[2016.10.13-01.12.32:980][108]LogMemory: Platform Memory Stats for Windows
+[2016.10.13-01.12.32:980][108]LogMemory: Process Physical Memory: 902.66 MB used, 1434.28 MB peak
+[2016.10.13-01.12.32:980][108]LogMemory: Process Virtual Memory: 2555.43 MB used, 2667.71 MB peak
+[2016.10.13-01.12.32:980][108]LogMemory: Physical Memory: 6729.05 MB used, 8145.47 MB total
+[2016.10.13-01.12.32:980][108]LogMemory: Virtual Memory: 3508.08 MB used, 134217728.00 MB total
+[2016.10.13-01.12.32:980][108]LogMemory: 
+[2016.10.13-01.12.32:980][108]Allocator Stats for TBB: (not implemented)
+[2016.10.13-01.12.33:482][108]LogAIModule: Creating AISystem for world ArenaMap
+[2016.10.13-01.12.33:482][108]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.13-01.12.33:541][108]LogWorld: Bringing World /Game/ArenaMap/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 0) at 2016.10.13-02.12.33
+[2016.10.13-01.12.33:543][108]LogWorld: Bringing up level for play took: 0.059949
+[2016.10.13-01.12.33:547][108]LogLoad: Took 0.600651 seconds to LoadMap(/Game/ArenaMap/ArenaMap)
+[2016.10.13-01.12.38:325][638]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.12.38:360][638]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ArenaMap/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ArenaMap/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.10.13-01.12.42:580][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ArenaMap/Assets/UI/HUD" FILE="D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/ArenaMap/Assets/UI/HUD.uasset" SILENT=true
+[2016.10.13-01.12.42:628][981]LogSavePackage: Save=39.99ms
+[2016.10.13-01.12.42:628][981]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/HUDABCB6F9449D644E08892D3988F74B9CC.tmp' to 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/ArenaMap/Assets/UI/HUD.uasset'
+[2016.10.13-01.12.42:631][981]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/ArenaMap/Assets/UI/HUD.uasset
+[2016.10.13-01.12.42:682][981]LogSavePackage: Save=39.02ms
+[2016.10.13-01.12.42:682][981]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/FirstPersonGameMode32C625B04047FFDDD6EDD38D49EF44F3.tmp' to 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset'
+[2016.10.13-01.12.42:684][981]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset
+[2016.10.13-01.12.42:686][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonHUD" FILE="D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset" SILENT=true
+[2016.10.13-01.12.42:715][981]LogSavePackage: Save=23.46ms
+[2016.10.13-01.12.42:715][981]LogSavePackage: Moving 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Saved/FirstPersonHUD2C98E125492D0F76702E589B1430B505.tmp' to 'D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset'
+[2016.10.13-01.12.42:716][981]LogSavePackage:Display: Finished SavePackage D:/Repositories/UnrealGameJam-Last/UnrealGameJam/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2016.10.13-01.12.42:988][981]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.13-01.12.43:233][982]Cmd: QUIT_EDITOR
+[2016.10.13-01.12.43:438][982]LogExit: Preparing to exit.
+[2016.10.13-01.12.44:258][982]LogExit: Editor shut down
+[2016.10.13-01.12.44:259][982]LogExit: Transaction tracking system shut down
+[2016.10.13-01.12.44:682][982]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.13-01.12.44:683][982]LogExit: Object subsystem successfully closed.
+[2016.10.13-01.12.44:714][982]LogD3D11RHI: Shutdown
+[2016.10.13-01.12.44:714][982]LogD3D11RHI: CleanupD3DDevice
+[2016.10.13-01.12.44:862][982]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.13-01.12.44:893][982]LogModuleManager: Shutting down and abandoning module TextureEditor (218)
+[2016.10.13-01.12.44:893][982]LogModuleManager: Shutting down and abandoning module SequencerWidgets (217)
+[2016.10.13-01.12.44:893][982]LogModuleManager: Shutting down and abandoning module BlueprintGraph (216)
+[2016.10.13-01.12.44:893][982]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (215)
+[2016.10.13-01.12.44:893][982]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (214)
+[2016.10.13-01.12.44:893][982]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.10.13-01.12.44:894][982]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.10.13-01.12.44:894][982]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.10.13-01.12.44:894][982]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.10.13-01.12.44:894][982]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.10.13-01.12.44:900][982]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.10.13-01.12.44:900][982]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.10.13-01.12.44:900][982]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.10.13-01.12.44:901][982]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.10.13-01.12.44:902][982]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.10.13-01.12.44:902][982]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.10.13-01.12.44:903][982]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.10.13-01.12.44:903][982]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.10.13-01.12.44:903][982]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.10.13-01.12.44:903][982]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.10.13-01.12.44:903][982]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.10.13-01.12.44:904][982]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.10.13-01.12.44:904][982]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.10.13-01.12.44:904][982]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.10.13-01.12.44:904][982]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.10.13-01.12.44:904][982]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.10.13-01.12.44:905][982]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.10.13-01.12.44:905][982]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.10.13-01.12.44:906][982]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.10.13-01.12.44:906][982]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.10.13-01.12.44:906][982]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.10.13-01.12.44:906][982]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.10.13-01.12.44:906][982]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.10.13-01.12.44:908][982]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.10.13-01.12.44:909][982]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.10.13-01.12.44:909][982]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.10.13-01.12.44:909][982]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.10.13-01.12.44:909][982]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.10.13-01.12.44:910][982]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.10.13-01.12.44:930][982]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.10.13-01.12.44:931][982]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.10.13-01.12.44:931][982]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.10.13-01.12.44:931][982]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.10.13-01.12.44:931][982]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.10.13-01.12.44:931][982]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.10.13-01.12.44:932][982]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.10.13-01.12.44:932][982]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.10.13-01.12.44:933][982]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.10.13-01.12.44:934][982]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.10.13-01.12.44:934][982]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.10.13-01.12.44:934][982]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.10.13-01.12.44:935][982]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.10.13-01.12.44:935][982]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.10.13-01.12.44:935][982]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.10.13-01.12.44:935][982]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.10.13-01.12.44:936][982]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.10.13-01.12.44:936][982]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.10.13-01.12.44:936][982]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.10.13-01.12.44:937][982]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.10.13-01.12.44:937][982]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.10.13-01.12.44:938][982]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.10.13-01.12.44:939][982]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.10.13-01.12.44:939][982]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.10.13-01.12.44:939][982]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.10.13-01.12.44:983][982]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.10.13-01.12.44:984][982]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.10.13-01.12.44:985][982]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.10.13-01.12.44:986][982]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.10.13-01.12.44:986][982]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.10.13-01.12.44:986][982]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.10.13-01.12.44:987][982]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.10.13-01.12.44:989][982]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.10.13-01.12.44:989][982]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.10.13-01.12.44:989][982]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.10.13-01.12.44:990][982]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.10.13-01.12.44:991][982]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.10.13-01.12.44:991][982]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.10.13-01.12.44:991][982]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.10.13-01.12.44:992][982]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.10.13-01.12.44:992][982]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.10.13-01.12.44:993][982]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.10.13-01.12.44:993][982]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.10.13-01.12.44:993][982]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.10.13-01.12.44:993][982]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.10.13-01.12.44:993][982]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.10.13-01.12.44:993][982]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.10.13-01.12.44:993][982]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.10.13-01.12.44:993][982]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.10.13-01.12.44:993][982]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.10.13-01.12.44:993][982]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.10.13-01.12.45:003][982]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.10.13-01.12.45:005][982]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.10.13-01.12.45:005][982]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.10.13-01.12.45:005][982]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.10.13-01.12.45:005][982]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.10.13-01.12.45:005][982]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.10.13-01.12.45:005][982]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.10.13-01.12.45:005][982]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.10.13-01.12.45:005][982]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.10.13-01.12.45:005][982]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.10.13-01.12.45:005][982]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.10.13-01.12.45:006][982]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.10.13-01.12.45:006][982]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.10.13-01.12.45:006][982]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.10.13-01.12.45:006][982]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.10.13-01.12.45:006][982]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.10.13-01.12.45:008][982]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.10.13-01.12.45:008][982]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.10.13-01.12.45:008][982]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.10.13-01.12.45:008][982]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.10.13-01.12.45:009][982]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.10.13-01.12.45:009][982]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.10.13-01.12.45:010][982]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.10.13-01.12.45:011][982]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.10.13-01.12.45:011][982]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.10.13-01.12.45:011][982]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.10.13-01.12.45:012][982]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.10.13-01.12.45:012][982]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.10.13-01.12.45:012][982]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.10.13-01.12.45:013][982]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.10.13-01.12.45:013][982]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.10.13-01.12.45:014][982]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.10.13-01.12.45:015][982]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.10.13-01.12.45:016][982]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.10.13-01.12.45:017][982]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.10.13-01.12.45:118][982]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.10.13-01.12.45:118][982]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.10.13-01.12.45:118][982]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.10.13-01.12.45:118][982]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.10.13-01.12.45:118][982]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.10.13-01.12.45:119][982]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.10.13-01.12.45:119][982]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.10.13-01.12.45:119][982]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.10.13-01.12.45:119][982]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.10.13-01.12.45:119][982]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.10.13-01.12.45:119][982]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.10.13-01.12.45:119][982]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.10.13-01.12.45:119][982]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.10.13-01.12.45:121][982]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.10.13-01.12.45:121][982]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.10.13-01.12.45:122][982]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.10.13-01.12.45:122][982]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.10.13-01.12.45:122][982]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.10.13-01.12.45:122][982]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.10.13-01.12.45:123][982]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.10.13-01.12.45:123][982]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.10.13-01.12.45:123][982]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.10.13-01.12.45:125][982]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.10.13-01.12.45:125][982]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.10.13-01.12.45:127][982]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.10.13-01.12.45:127][982]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.10.13-01.12.45:128][982]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.10.13-01.12.45:128][982]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.10.13-01.12.45:128][982]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.10.13-01.12.45:128][982]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.10.13-01.12.45:132][982]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.10.13-01.12.45:326][982]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.10.13-01.12.45:326][982]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.10.13-01.12.45:327][982]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.10.13-01.12.45:328][982]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.10.13-01.12.45:335][982]LogDerivedDataCache: Shutdown
+[2016.10.13-01.12.45:335][982]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.10.13-01.12.45:335][982]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.10.13-01.12.45:335][982]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.10.13-01.12.45:336][982]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.10.13-01.12.45:336][982]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.10.13-01.12.45:336][982]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.10.13-01.12.45:336][982]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.10.13-01.12.45:337][982]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.10.13-01.12.45:337][982]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.10.13-01.12.45:337][982]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.10.13-01.12.45:337][982]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.10.13-01.12.45:337][982]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.10.13-01.12.45:337][982]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.10.13-01.12.45:337][982]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.10.13-01.12.45:337][982]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.10.13-01.12.45:337][982]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.10.13-01.12.45:338][982]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.10.13-01.12.45:338][982]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.10.13-01.12.45:338][982]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.10.13-01.12.45:338][982]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.10.13-01.12.45:338][982]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.10.13-01.12.45:338][982]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.10.13-01.12.45:338][982]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.10.13-01.12.45:338][982]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.10.13-01.12.45:338][982]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.10.13-01.12.45:338][982]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.10.13-01.12.45:338][982]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.10.13-01.12.45:338][982]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.10.13-01.12.45:338][982]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.10.13-01.12.45:338][982]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.10.13-01.12.45:338][982]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.10.13-01.12.45:339][982]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.10.13-01.12.45:339][982]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.10.13-01.12.45:339][982]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.10.13-01.12.45:339][982]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.10.13-01.12.45:339][982]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.10.13-01.12.45:339][982]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.10.13-01.12.45:340][982]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.10.13-01.12.45:340][982]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.10.13-01.12.46:842][982]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.10.13-01.12.46:843][982]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.10.13-01.12.46:844][982]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.10.13-01.12.46:844][982]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.13-01.12.46:844][982]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.13-01.12.46:844][982]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.13-01.12.46:844][982]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.13-01.12.46:847][982]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.13-01.12.46:848][982]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.13-01.12.46:848][982]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.13-01.12.46:848][982]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.13-01.12.46:848][982]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.13-01.12.46:848][982]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.13-01.12.46:848][982]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.13-01.12.46:849][982]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.13-01.12.46:849][982]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.13-01.12.46:850][982]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.13-01.12.46:861][982]LogExit: Exiting.
+[2016.10.13-01.12.46:872][982]Log file closed, 10/13/16 02:12:46
